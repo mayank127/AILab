@@ -1,8 +1,11 @@
 from random import random
 import math
-
+import sys
 # neurons_per_layer = [0]*n_layers
-filename = raw_input('')
+if(len(sys.argv)<2):
+	print "usage " + sys.argv[0] + " filename"
+	exit(0)
+filename = sys.argv[1]
 fin = open(filename)
 lines = fin.readlines()
 neurons_per_layer = [int(x) for x in lines[0].replace('\n','').split(' ')] # first element = number of input lines
