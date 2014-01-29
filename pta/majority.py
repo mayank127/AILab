@@ -25,15 +25,24 @@ for i in range(n):
 	temp *= 2
 
 print(n)
+
+training_data = [[]]*10
+training_data[0] = [0,1,1,1,1,1,1]
+training_data[1] = [0,0,0,1,1,0,0]
+training_data[2] = [1,0,1,1,0,1,1]
+training_data[3] = [1,0,1,1,1,1,0]
+training_data[4] = [1,1,0,1,1,0,0]
+training_data[5] = [1,1,1,0,1,1,0]
+training_data[6] = [1,1,1,0,1,1,1]
+training_data[7] = [0,0,1,1,1,0,0]
+training_data[8] = [1,1,1,1,1,1,1]
+training_data[9] = [1,1,1,1,1,1,0]
 for x in x_vector:
-	temp = sum(x)
-	st = ''
-	if (temp>(n/2)):
-		for s in x:
-			st += (str(s) + ' ')
-		st += str(1)
-	else:
-		for s in x:
-			st += (str(s) + ' ')
-		st += str(0)
-	print(st)
+	ans = [0]*10
+	if x in training_data:
+		ans[training_data.index(x)] = 1
+	for a in x:
+		print str(a) + " ",
+	for a in ans:
+		print str(a) + " ",
+	print " "
