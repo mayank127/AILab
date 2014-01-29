@@ -155,18 +155,25 @@ def get_output(x_vector):
 		for layer in network:
 			for neuron in layer:
 				neuron.cal_output(Input)
-		print (Input, [w.output for w in network[-1]])
-	print('')
+		print (Input),
+		for w in network[-1]:
+			if (w.output >= 0.8): print(1),
+			elif(w.output<=0.2): print(0),
+			else: print(-1),
+		print('\n')
+
+factor = 0;
 
 cur_error = get_error()
-threshhold = 0.01 * neurons_per_layer[-1]
+threshhold = 0.02 * neurons_per_layer[-1]
 count = 0
 while True:
 	if (cur_error < threshhold):
 		break
 	if(count==100):
 		count = 0
-		print (cur_error)
+		factor += 1
+		print (factor*100, cur_error)
 	count+=1
 
 	# print(cur_error)
