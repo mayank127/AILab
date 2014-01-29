@@ -1,13 +1,16 @@
+import sys
 from random import random
 import math
 
 # neurons_per_layer = [0]*n_layers
-filename = raw_input('')
+# filename = raw_input('')
+filename="pal_input"
 fin = open(filename)
 lines = fin.readlines()
 neurons_per_layer = [int(x) for x in lines[0].replace('\n','').split(' ')] # first element = number of input lines
 
-eta = float(lines[1])
+# eta = float(lines[1])
+eta=float(sys.argv[1])
 moment = float(lines[2])
 training_data = []
 target_output = []
@@ -24,8 +27,8 @@ Input = [0]*neurons_per_layer[0]
 
 
 Output = [0]
-eta = 0.1 # learning rate
-moment = 0.1
+# eta = 0.1 # learning rate
+# moment = 0.0
 
 class Neuron:
 
@@ -153,12 +156,12 @@ def get_output(x_vector):
 		for layer in network:
 			for neuron in layer:
 				neuron.cal_output(Input)
-		print (Input),
-		for w in network[-1]:
-			if (w.output >= 0.8): print(1),
-			elif(w.output<=0.2): print(0),
-			else: print(-1),
-		print('\n')
+		# print (Input),
+		# for w in network[-1]:
+		# 	if (w.output >= 0.8): print(1),
+		# 	elif(w.output<=0.2): print(0),
+		# 	else: print(-1),
+		# print('\n')
 
 factor = 0;
 
@@ -173,7 +176,7 @@ while True:
 	if(count==100):
 		count = 0
 		factor += 1
-		print (factor*100, cur_error)
+		# print (factor*100, cur_error)
 	count+=1
 
 	# print(cur_error)
@@ -200,16 +203,16 @@ while True:
 	# else:
 	# 	pass
 
-print(cur_error)
+# print(cur_error)
 get_output(test_vector)
 
-print(iterations)
+print(str(eta)+" "+str(iterations))
 
-while (True):
-	Input = []
-	for i in range(neurons_per_layer[0]):
-		Input += [int(input(''))]
-	for layer in network:
-		for neuron in layer:
-			neuron.cal_output(Input)
-	print (Input, [w.output for w in network[-1]])
+# while (True):
+# 	Input = []
+# 	for i in range(neurons_per_layer[0]):
+# 		Input += [int(input(''))]
+# 	for layer in network:
+# 		for neuron in layer:
+# 			neuron.cal_output(Input)
+# 	print (Input, [w.output for w in network[-1]])
