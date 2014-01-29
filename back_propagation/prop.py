@@ -4,14 +4,14 @@ import math
 
 # neurons_per_layer = [0]*n_layers
 # filename = raw_input('')
-filename="pal_input"
+filename=sys.argv[1]
 fin = open(filename)
 lines = fin.readlines()
 neurons_per_layer = [int(x) for x in lines[0].replace('\n','').split(' ')] # first element = number of input lines
 
 # eta = float(lines[1])
-eta=float(sys.argv[1])
-moment = float(lines[2])
+eta=float(sys.argv[2])
+moment = 0.0
 training_data = []
 target_output = []
 for i in range(3,len(lines)):
