@@ -27,7 +27,13 @@ for i in range(n):
 print(n)
 for x in x_vector:
 	temp = sum(x)
+	st = ''
 	if (temp>(n/2)):
-		print(1)
+		for s in x:
+			st += (str(s) + ' ')
+		st += str(1)
 	else:
-		print(0)
+		for s in x:
+			st += (str(s) + ' ')
+		st += str(0)
+	print(st)

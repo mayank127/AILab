@@ -12,8 +12,12 @@ output=[]
 for i in range(pow(2,n)):
 	binary=bin(i)[2:].zfill(n)
 	if(is_palindrome(binary)):
-		output+=[1]
-		print 1
+		st = ''
+		for s in binary:
+			st += (str(s) + ' ')
+		print (st + '1')
 	else:
-		output+=[0]
-		print 0
+		st = ''
+		for s in binary:
+			st += (str(s) + ' ')
+		print (st + '0')

@@ -1,14 +1,33 @@
 from random import random
 import math
 
-n_layers = 2
 # neurons_per_layer = [0]*n_layers
-neurons_per_layer = [2,2,1] # first element = number of input lines
+filename = raw_input('')
+fin = open(filename)
+lines = fin.readlines()
+neurons_per_layer = [int(x) for x in lines[0].replace('\n','').split(' ')] # first element = number of input lines
+
+eta = float(lines[1])
+moment = float(lines[2])
+training_data = []
+target_output = []
+for i in range(3,len(lines)):
+	l = [int(x) for x in lines[i].replace('\n','').split(' ')]
+	training_data += [l[0:neurons_per_layer[0]]]
+	target_output += [l[neurons_per_layer[0]:]]
+
+n_layers = len(neurons_per_layer) - 1
 network = []
 Input = [0]*neurons_per_layer[0]
-target_output = [[0],[1],[1],[0]]
+# target_output = [[1,0,0,0,0,0,0,0,0,0],[0,1,0,0,0,0,0,0,0,0],[0,0,1,0,0,0,0,0,0,0],[0,0,0,1,0,0,0,0,0,0],[0,0,0,0,1,0,0,0,0,0],[0,0,0,0,0,1,0,0,0,0],[0,0,0,0,0,0,1,0,0,0],[0,0,0,0,0,0,0,1,0,0],[0,0,0,0,0,0,0,0,1,0],[0,0,0,0,0,0,0,0,0,1]]
+# target_output = [[0],[1],[1],[0],[1],[0],[1],[1],[0],[1]]
+
+
+
+
 Output = [0]
-eta = 0.01 # learning rate
+eta = 0.1 # learning rate
+moment = 0.1
 
 class Neuron:
 
@@ -18,6 +37,7 @@ class Neuron:
 		self.in_weights = []
 		self.delta = 0
 		self.output = 0
+		self.moment_weights = []
 		self.init_weights()
 
 	def cal_output(self, Input):
@@ -34,6 +54,7 @@ class Neuron:
 	def init_weights(self):
 		for i in range(neurons_per_layer[self.layer-1]+1):
 			self.in_weights += [(2*random()-1)]
+			self.moment_weights += [0]
 
 	def cal_delta(self, Output):
 		oj = self.output
@@ -46,13 +67,19 @@ class Neuron:
 			self.delta *= oj*(1-oj)
 
 	def update_weight(self, Input):
-		self.in_weights[0] += (eta * self.delta * -1)
+		change = self.delta * -1
+		self.in_weights[0] += (eta * change) + self.moment_weights[0] * moment
+		self.moment_weights[0] = change
 		if (self.layer==1):
 			for i in range(neurons_per_layer[0]):
-				self.in_weights[i+1] += (eta * self.delta * Input[i])
+				change = self.delta * Input[i]
+				self.in_weights[i+1] += (eta * change) + self.moment_weights[i+1] * moment
+				self.moment_weights[i+1] = change
 		else:
 			for i in range(neurons_per_layer[self.layer-1]):
-				self.in_weights[i+1] += (eta * self.delta * network[self.layer-2][i].output)
+				change = self.delta * network[self.layer-2][i].output
+				self.in_weights[i+1] += (eta * change) + self.moment_weights[i+1] * moment
+				self.moment_weights[i+1] = change
 
 for l in range(n_layers):
 	layers = []
@@ -81,7 +108,22 @@ for i in range(n):
 			else:
 				fill = 0
 	temp *= 2
+test_vector = x_vector
+# training_data = [[]]
+# training_data = [[0,0],[0,1],[1,0],[1,1]]
+# training_data = [[3,5],[2,3],[9,10],[12,15],[2.5,3.5],[-9,15],[100,101],[-1,0],[70,95],[-50,-49]]
+# training_data[0] = [0,1,1,1,1,1,1]
+# training_data[1] = [0,0,0,1,1,0,0]
+# training_data[2] = [1,0,1,1,0,1,1]
+# training_data[3] = [1,0,1,1,1,1,0]
+# training_data[4] = [1,1,0,1,1,0,0]
+# training_data[5] = [1,1,1,0,1,1,0]
+# training_data[6] = [1,1,1,0,1,1,1]
+# training_data[7] = [0,0,1,1,1,0,0]
+# training_data[8] = [1,1,1,1,1,1,1]
+# training_data[9] = [1,1,1,1,1,1,0]
 
+x_vector = training_data
 def update_neurons():
 	for x in x_vector:
 		Input = x
@@ -107,22 +149,26 @@ def get_error():
 		error += sum([(x-y.output)*(x-y.output) for x,y in zip(Output,network[-1])])
 	return error*0.5
 
-def get_output():
+def get_output(x_vector):
 	for x in x_vector:
 		Input = x
-		Output = target_output[x_vector.index(x)]
 		for layer in network:
 			for neuron in layer:
 				neuron.cal_output(Input)
-		print (Input, [w.output for w in network[-1]], Output)
+		print (Input, [w.output for w in network[-1]])
 	print('')
-	print(get_error())
 
 cur_error = get_error()
-threshhold = 0.005
+threshhold = 0.01 * neurons_per_layer[-1]
+count = 0
 while True:
 	if (cur_error < threshhold):
 		break
+	if(count==100):
+		count = 0
+		print (cur_error)
+	count+=1
+
 	# print(cur_error)
 	# print(prev_error)
 	# for layer in network:
@@ -136,7 +182,25 @@ while True:
 	# for layer in network:
 	# 	for neuron in layer:
 	# 		print(neuron.in_weights)
+	temp = cur_error
 	cur_error = get_error()
+	# temp -= cur_error
+	# if (temp>=0.1):
+	# 	eta/=2
+	# elif (temp<=0.001):
+	# 	eta*=2
+	# 	if(eta>1): eta/=2
+	# else:
+	# 	pass
 
 print(cur_error)
-get_output()
+get_output(test_vector)
+
+while (True):
+	Input = []
+	for i in range(neurons_per_layer[0]):
+		Input += [int(input(''))]
+	for layer in network:
+		for neuron in layer:
+			neuron.cal_output(Input)
+	print (Input, [w.output for w in network[-1]])
