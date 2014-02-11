@@ -9,19 +9,14 @@ node_list = {}
 node_map = {}
 steps = 0
 
-hflag = -1
+start_state = [3,3,0] # <M,C,P> (0:left and 1:right)
+final_state = [0,0,1]
 
-# start_state = [[8,3,5],[4,1,6],[2,7,0]]
-# start_state = [[1,3,4],[8,6,2],[7,0,5]]
-# start_state = [[2,8,1],[0,4,3],[7,6,5]]
-# start_state = [[2,8,1],[4,6,3],[0,7,5]]
-start_state = [[5,6,7],[4,0,8],[3,2,1]] # -- worst input
-final_state = [[1,2,3],[8,0,4],[7,6,5]]
-
-def index_2d(myList, v):
-    for i, x in enumerate(myList):
-        if v in x:
-            return (i, x.index(v))
+def invert(n):
+	if (n==0):
+		return 1
+	else:
+		return 0
 
 class Node:
 
@@ -30,69 +25,75 @@ class Node:
 		self.parent = None
 		self.g = 0
 		self.config = config
-		self.h = 0
-		if(hflag):
-			self.h = self.h_manhattan()
-		else:
-			self.h = self.h_plain()
+		self.h = self.cal_h()
 
-	def h_plain(self):
-		x = copy.deepcopy(final_state)
-		count = 0
-		for i in range(3):
-			for j in range(3):
-				if (self.config[i][j]!=x[i][j]):
-					count += 1 
-		return count
-
-	def h_manhattan(self):
-		count= 0;
-		for i in range(3):
-			for j in range(3):
-				ele = self.config[i][j]
-				if(ele!=0):
-					pos = index_2d(final_state,ele);
-					count+= abs(i-pos[0]) + abs(j-pos[1])
-		return count
+	def cal_h(self):
+		return 0
 
 	def f(self):
 		return self.h + self.g
 
 	def print_node(self):
-		for i in range(3):
-			print self.config[i]
+		print(self.config)
 		print('--------------------')
 
+def isValid(x):
+	return (x[0]>=0 and x[1]>=0 and (x[0]-x[1]>=0 or x[0]==0) and ((3-x[0])-(3-x[1])>=0 or (3-x[0]==0)))
+
+
 def getChildren(node):
-	config = node.config
-	posx = -1
-	posy = -1
-	for i in range(3):
-		flag = False
-		for j in range(3):
-			if (config[i][j]==0):
-				posx, posy = i, j
-				flag = True
-				break
-		if (flag):
-			break
+	config = copy.deepcopy(node.config)
 	children = []
-	if (posx <= 1):
-		x = copy.deepcopy(config)
-		x[posx][posy], x[posx+1][posy] = x[posx+1][posy], x[posx][posy]
-		children += [x] 
-	if (posx >= 1):
-		x = copy.deepcopy(config)
-		x[posx][posy], x[posx-1][posy] = x[posx-1][posy], x[posx][posy]
-		children += [x]
-	if (posy <= 1):
-		x = copy.deepcopy(config)
-		x[posx][posy], x[posx][posy+1] = x[posx][posy+1], x[posx][posy]
-		children += [x] 
-	if (posy >= 1):
-		x = copy.deepcopy(config)
-		x[posx][posy], x[posx][posy-1] = x[posx][posy-1], x[posx][posy]
-		children += [x]
+	left = [config[0],config[1]]
+	right = [3-config[0],3-config[1]]
+	boat = config[2]
+	if(boat):
+		missionary = right[0]
+		cannibal = right[1]
+	else:
+		missionary = left[0]
+		cannibal = left[1]
+
+	x = [missionary-2,cannibal,invert(boat)]
+	if (isValid(x)):
+		if(boat):
+			new_left = [3-x[0],3-x[1],invert(boat)]
+			children += [new_left]
+		else:
+			children += [x]
+
+	x = [missionary-1,cannibal,invert(boat)]
+	if (isValid(x)):
+		if(boat):
+			new_left = [3-x[0],3-x[1],invert(boat)]
+			children += [new_left]
+		else:
+			children += [x]
+
+	x = [missionary,cannibal-2,invert(boat)]
+	if (isValid(x)):
+		if(boat):
+			new_left = [3-x[0],3-x[1],invert(boat)]
+			children += [new_left]
+		else:
+			children += [x]
+
+	x = [missionary,cannibal-1,invert(boat)]
+	if (isValid(x)):
+		if(boat):
+			new_left = [3-x[0],3-x[1],invert(boat)]
+			children += [new_left]
+		else:
+			children += [x]
+
+	x = [missionary-1,cannibal-1,invert(boat)]
+	if (isValid(x)):
+		if(boat):
+			new_left = [3-x[0],3-x[1],invert(boat)]
+			children += [new_left]
+		else:
+			children += [x]
+
 	for c in children:
 		if (not str(c) in node_map.keys()):
 			node_map[str(c)] = Node(c)
@@ -149,7 +150,6 @@ def astar(S,F):
 		CL += [min_node]
 
 def main():
-	hflag = sys.argv[1]
 	start = Node(start_state)
 	final = Node(final_state)
 	print ("\nSTART")
