@@ -1,0 +1,26 @@
+XOR eta>=0.7
+
+[0, 0] 1 0 0 
+[0, 1] 1 1 1 
+[1, 0] 1 1 1 
+[1, 1] 0 1 0
+
+(~x1.x2)+(x1.~x2)+(~x1.~x2) 
+(x1+x2)
+final is the AND of these two 
+
+xor eta < 0.7
+[0, 0] 0 0 0 
+[0, 1] 0 1 1 
+[1, 0] 0 1 1 
+[1, 1] 1 1 0
+
+x1.x2
+x1+x2
+final is the xor of these two. 
+
+-----------------------------------------------------------
+
+Symmetry Breaking: 
+On initialising the weights equal, the error decreases very slowly. The iterations reaches upto 54 Lakhs even for eta=0.8
+The plausible reason may be that it attains the local minimum and the error changes at the 8th place after decimal. 

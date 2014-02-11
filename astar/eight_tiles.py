@@ -1,22 +1,23 @@
 # test cases source -- http://www.d.umn.edu/~jrichar4/8puz.html
 
-import networkx as nx
 import random
 import copy
 import sys
-G = nx.Graph()
 node_list = {}
 node_map = {}
 steps = 0
 
-hflag = -1
+hflag = 0
 
 # start_state = [[8,3,5],[4,1,6],[2,7,0]]
 # start_state = [[1,3,4],[8,6,2],[7,0,5]]
 # start_state = [[2,8,1],[0,4,3],[7,6,5]]
 # start_state = [[2,8,1],[4,6,3],[0,7,5]]
-start_state = [[5,6,7],[4,0,8],[3,2,1]] # -- worst input
-final_state = [[1,2,3],[8,0,4],[7,6,5]]
+# start_state = [[5,6,7],[4,0,8],[3,2,1]] # -- worst input
+# final_state = [[1,2,3],[8,0,4],[7,6,5]]
+
+start_state = [[2,1,4],[6,8,3],[5,7,0]]
+final_state = [[1,6,4],[0,3,7],[2,5,8]]
 
 def index_2d(myList, v):
     for i, x in enumerate(myList):
@@ -31,6 +32,7 @@ class Node:
 		self.g = 0
 		self.config = config
 		self.h = 0
+		global hflag 
 		if(hflag):
 			self.h = self.h_manhattan()
 		else:
@@ -149,7 +151,8 @@ def astar(S,F):
 		CL += [min_node]
 
 def main():
-	hflag = sys.argv[1]
+	global hflag 
+	hflag = int(sys.argv[1])
 	start = Node(start_state)
 	final = Node(final_state)
 	print ("\nSTART")

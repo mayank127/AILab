@@ -1,7 +1,0 @@
-# !/bin/bash
-
-files=('xor2.txt','nand2.txt','nor2.txt','pal_input','seven_input','majority_input')
-for i in "${files[@]}"
-do
-	echo $i
-done

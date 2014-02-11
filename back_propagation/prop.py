@@ -1,7 +1,8 @@
 import sys
-from random import random
+from random import *
 import math
 
+seed(10);
 # neurons_per_layer = [0]*n_layers
 # filename = raw_input('')
 filename=sys.argv[1]
@@ -55,6 +56,7 @@ class Neuron:
 	def init_weights(self):
 		for i in range(neurons_per_layer[self.layer-1]+1):
 			self.in_weights += [(2*random()-1)]
+			# self.in_weights += [0.5]; # symmetry breaking
 			self.moment_weights += [0]
 
 	def cal_delta(self, Output):
@@ -204,9 +206,9 @@ while True:
 	# 	pass
 
 # print(cur_error)
-get_output(test_vector)
+# get_output(test_vector)
 
-print(str(eta)+" "+str(iterations))
+# print(str(eta)+" "+str(iterations))
 
 # while (True):
 # 	Input = []
@@ -216,3 +218,20 @@ print(str(eta)+" "+str(iterations))
 # 		for neuron in layer:
 # 			neuron.cal_output(Input)
 # 	print (Input, [w.output for w in network[-1]])
+
+ # Analysing the result of inner neurons_per_layer
+def final_output(x_vector):
+	for x in x_vector:
+		Input = x
+		print(Input),
+		for layer in network:
+			for neuron in layer:
+				neuron.cal_output(Input)
+				w = neuron.output
+				if (w >= 0.8): print(1),
+				elif(w<=0.2): print(0),
+				else: print(-1),
+		print('\n')
+
+
+final_output(test_vector)
