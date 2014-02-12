@@ -10,9 +10,9 @@ pathLength = 0
 
 hflag = 0
 
-# start_state = [[8,3,5],[4,1,6],[2,7,0]]
+start_state = [[8,3,5],[4,1,6],[2,7,0]]
 # start_state = [[1,3,4],[8,6,2],[7,0,5]]
-start_state = [[2,8,1],[0,4,3],[7,6,5]]
+# start_state = [[2,8,1],[0,4,3],[7,6,5]]
 # start_state = [[2,8,1],[4,6,3],[0,7,5]]
 # start_state = [[5,6,7],[4,0,8],[3,2,1]] # -- worst input
 final_state = [[1,2,3],[8,0,4],[7,6,5]]
@@ -45,7 +45,7 @@ class Node:
 		count = 0
 		for i in range(3):
 			for j in range(3):
-				if (self.config[i][j]!=x[i][j] && self.config[i][j]!=0):
+				if (self.config[i][j]!=x[i][j] and self.config[i][j]!=0):
 					count += 1 
 		return count
 

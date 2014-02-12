@@ -11,9 +11,9 @@ pathLength =0
 
 hflag = 0
 
-# start_state = [[8,3,5],[4,1,6],[2,7,0]]
+start_state = [[8,3,5],[4,1,6],[2,7,0]]
 # start_state = [[1,3,4],[8,6,2],[7,0,5]]
-start_state = [[2,8,1],[0,4,3],[7,6,5]]
+# start_state = [[2,8,1],[0,4,3],[7,6,5]]
 # start_state = [[2,8,1],[4,6,3],[0,7,5]]
 # start_state = [[5,6,7],[4,0,8],[3,2,1]] # -- worst input
 
