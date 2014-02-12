@@ -1,0 +1,30 @@
+-------------------------------------------------
+BI_DIRECTIONAL
+
+	start_state = [[5,6,7],[4,0,8],[3,2,1]] # -- worst input
+	final_state = [[1,2,3],[8,0,4],[7,6,5]]
+	With uni-directional search :
+		Steps = 3837
+		pathLength  = 31
+	With bidirectional Search :
+		Steps = 2925
+		pathLength  = 35
+
+	start_state = [[2,8,1],[4,6,3],[0,7,5]]
+	final_state = [[1,2,3],[8,0,4],[7,6,5]]
+	With uni-directional search :
+		Steps = 25
+		pathLength  = 13
+	With bidirectional Search :
+		Steps = 22
+		pathLength  = 13
+
+	start_state = [[2,8,1],[0,4,3],[7,6,5]]
+	final_state = [[1,2,3],[8,0,4],[7,6,5]]
+	With uni-directional search :
+		Steps = 15
+		pathLength  = 10
+	With bidirectional Search :
+		Steps = 13
+		pathLength  = 10
+-------------------------------------------------
