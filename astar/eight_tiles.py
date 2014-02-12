@@ -45,7 +45,7 @@ class Node:
 		count = 0
 		for i in range(3):
 			for j in range(3):
-				if (self.config[i][j]!=x[i][j]):
+				if (self.config[i][j]!=x[i][j] && self.config[i][j]!=0):
 					count += 1 
 		return count
 
