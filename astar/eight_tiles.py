@@ -10,17 +10,24 @@ pathLength = 0
 
 hflag = 0
 
-start_state = [[8,3,5],[4,1,6],[2,7,0]]
+start_state =[[2,1,3],[4,5,6],[7,0,8]]
+# start_state = [[8,3,5],[4,1,6],[2,7,0]]
 # start_state = [[1,3,4],[8,6,2],[7,0,5]]
 # start_state = [[2,8,1],[0,4,3],[7,6,5]]
 # start_state = [[2,8,1],[4,6,3],[0,7,5]]
 # start_state = [[5,6,7],[4,0,8],[3,2,1]] # -- worst input
-final_state = [[1,2,3],[8,0,4],[7,6,5]]
+final_state = [[1,2,3],[4,5,6],[7,8,0]]
 
 # start_state = [[2,1,4],[7,8,3],[5,6,0]]
 # final_state = [[1,7,4],[0,3,6],[2,5,8]]
 # start_state = [[2,0,3],[1,8,4],[7,6,5]]
 # final_state = [[1,2,3],[8,0,4],[7,6,5]]
+
+
+
+
+
+
 
 def index_2d(myList, v):
     for i, x in enumerate(myList):
@@ -35,8 +42,10 @@ class Node:
 		self.config = config
 		self.h = 0
 		global hflag 
-		if(hflag):
+		if(hflag==1):
 			self.h = self.h_manhattan()
+		elif(hflag==2):
+			self.h = self.inversionPairs()/2
 		else:
 			self.h = self.h_plain()
 
@@ -61,6 +70,24 @@ class Node:
 
 	def f(self):
 		return self.h + self.g
+
+
+	def inversionPairs(self):
+		arr=[]
+		for row in self.config:
+			for ele in row:
+				if(ele!=0):
+					arr.append(ele)
+		nInversions=0;
+		for i in range(len(arr)):
+			for j in range(i+1, len(arr)):
+				if(arr[i]<arr[j]):
+					nInversions+=1
+		return nInversions
+
+
+
+
 
 	def print_node(self):
 		for i in range(3):
@@ -102,9 +129,14 @@ def getChildren(node):
 			node_map[str(c)] = Node(c)
 	return children
 
+
+
 def astar(S,F):
 	node_map[str(S.config)] = S
 	node_map[str(F.config)] = F
+
+
+
 	OL = [S]
 	CL = []
 	while (True):
@@ -125,6 +157,8 @@ def astar(S,F):
 			return
 		global steps
 		steps += 1
+		if(steps%100==0):
+			print(steps)
 		min_node.visited = True
 		neighbors = getChildren(min_node)
 		for y in neighbors:
@@ -165,6 +199,12 @@ def main():
 	print ("FINAL")
 	final.print_node()
 	print ("PATH")
+
+	#Non Reachability Test
+	if((start.inversionPairs()-final.inversionPairs())%2!=0):
+		print("Puzzle cannot be solved")
+		exit(0)
+
 	astar(start,final)
 	print("Number of steps : " + str(steps))
 	print("pathLength : "+str(pathLength))
