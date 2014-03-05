@@ -27,4 +27,9 @@ BI_DIRECTIONAL
 	With bidirectional Search :
 		Steps = 13
 		pathLength  = 10
+
+	Parent Pointer redirection:
+		start_state = [[2,8,1],[4,6,3],[0,7,5]]
+		final_state = [[1,2,3],[8,0,4],[7,6,5]]
+		Heuristic = number_of_inversion_pairs
 -------------------------------------------------

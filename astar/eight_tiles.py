@@ -10,18 +10,19 @@ pathLength = 0
 
 hflag = 0
 
-start_state =[[2,1,3],[4,5,6],[7,0,8]]
+# start_state =[[2,1,3],[4,5,6],[7,0,8]]
 # start_state = [[8,3,5],[4,1,6],[2,7,0]]
 # start_state = [[1,3,4],[8,6,2],[7,0,5]]
 # start_state = [[2,8,1],[0,4,3],[7,6,5]]
-# start_state = [[2,8,1],[4,6,3],[0,7,5]]
+start_state = [[2,8,1],[4,6,3],[0,7,5]]
 # start_state = [[5,6,7],[4,0,8],[3,2,1]] # -- worst input
-final_state = [[1,2,3],[4,5,6],[7,8,0]]
+# start_state = [[1,2,3],[4,5,6],[7,0,8]]
+# final_state = [[1,2,3],[4,5,6],[7,8,0]]
 
 # start_state = [[2,1,4],[7,8,3],[5,6,0]]
 # final_state = [[1,7,4],[0,3,6],[2,5,8]]
 # start_state = [[2,0,3],[1,8,4],[7,6,5]]
-# final_state = [[1,2,3],[8,0,4],[7,6,5]]
+final_state = [[1,2,3],[8,0,4],[7,6,5]]
 
 
 
@@ -45,7 +46,7 @@ class Node:
 		if(hflag==1):
 			self.h = self.h_manhattan()
 		elif(hflag==2):
-			self.h = self.inversionPairs()/2
+			self.h = self.inversionPairs()
 		else:
 			self.h = self.h_plain()
 
@@ -169,8 +170,8 @@ def astar(S,F):
 				OL += [x]
 			else:
 				w = 1 + min_node.g
-				if (w <= x.g):
-					# print("yahan nahi aana chahiye")
+				if (w < x.g):
+					print "parent pointer redirection ", str(x.config), " old g = ", x.g, " new g = ", w
 					x.parent = min_node
 					x.g = w
 					# update children of x
