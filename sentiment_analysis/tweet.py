@@ -9,7 +9,7 @@ import numpy
 
 brk = re.compile("(?:(?:[^a-zA-Z@]+')|(?:'[^a-zA-Z@]+))|(?:[^a-zA-Z@']+)")
 
-data_count = 0.2
+data_count = 0.25
 
 def extract_words(line):
 	words = []

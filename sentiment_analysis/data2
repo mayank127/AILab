@@ -1,0 +1,483 @@
+['awesom', 'basketbal', 'bball', 'chang', 'default', 'nike', 'pic']
+0 0 1 [0, 0, 1]
+
+['allen', 'award', 'booz', 'custom', 'hamilton', 'innov', 'mluc', 'winner']
+0 0 1 [0, 0, 1]
+
+['anymor', 'ceas', 'china', 'douchebaggeri', 'korea', 'north']
+1 0 0 [1, 0, 0]
+
+['api', 'curl', 'play', 'twitter']
+0 1 0 [0, 1, 0]
+
+['aig', 'ass', 'economi', 'fuck', 'hate', 'loan']
+1 0 0 [1, 0, 0]
+
+['date', 'egg', 'goddam', 'laker', 'mcdonald', 'sick', 'suck', 'true', 'updat', 'yeah']
+1 0 0 [1, 0, 0]
+
+['brush', 'cut', 'dentist', 'hair', 'morn', 'nice', 'tomorrow']
+0 1 0 [0, 1, 0]
+
+['child', 'good', 'kindl', 'lee', 'love', 'read']
+0 0 1 [0, 0, 1]
+
+['exam', 'histori', 'studi', 'ugh']
+1 0 0 [1, 0, 0]
+
+['basebal', 'club', 'ncaa', 'ram', 'region', 'super']
+0 1 0 [0, 1, 0]
+
+['bike', 'ride', 'sleep']
+0 0 1 [0, 0, 1]
+
+['battl', 'ben', 'kid', 'movi', 'museum', 'night', 'stiller', 'swithsonian', 'today', 'typic']
+0 1 0 [0, 1, 0]
+
+['buzz', 'free', 'lot', 'lucki']
+0 0 1 [0, 0, 1]
+
+['dad', 'good', 'googl', 'mention', 'mustang', 'place', 'work']
+0 0 1 [0, 0, 1]
+
+['asses', 'fuck', 'kindl', 'rock']
+0 0 1 [0, 0, 1]
+
+['american', 'inevit', 'led', 'peopl', 'place', 'plan', 'put', 'stimulus', 'unfortun']
+1 0 0 [1, 0, 0]
+
+['alpha', 'googl', 'vast', 'wolfram']
+0 0 1 [0, 0, 1]
+
+['big', 'happi', 'kindl']
+0 0 1 [0, 0, 1]
+
+['asshol', 'bitin', 'burn', 'catch', 'day', 'insect', 'mosquito', 'outta', 'shit', 'slowli', 'world']
+1 0 0 [1, 0, 0]
+
+['church', 'hate', 'insect', 'total']
+1 0 0 [1, 0, 0]
+
+['acia', 'arrrgh', 'brand', 'day', 'fail', 'hack', 'market', 'msgs', 'oughta', 'pill', 'shut', 'viral']
+1 0 0 [1, 0, 0]
+
+['itchi', 'miser']
+1 0 0 [1, 0, 0]
+
+['amaz', 'amp', 'effect', 'goodbi', 'partner', 'play', 'psyop', 'silverstein']
+0 0 1 [0, 0, 1]
+
+['api', 'twitter']
+0 0 1 [0, 0, 1]
+
+['alto', 'avoid', 'east', 'guess', 'live', 'palo', 'summer', 'yeahhhhhhhhh']
+1 0 0 [1, 0, 0]
+
+['amp', 'barbara', 'correspond', 'dinner', 'hous', 'night', 'obama', 'ovat', 'sherri', 'stand', 'whoopi']
+0 0 1 [0, 0, 1]
+
+['adob', 'amp', 'goodbi', 'interest', 'partner', 'propr', 'sen', 'silverstein', 'youtub']
+0 0 1 [0, 0, 1]
+
+['commerci', 'drive', 'espn', 'nut', 'omg']
+1 0 0 [1, 0, 0]
+
+['blog', 'dunk', 'gum', 'nike', 'post', 'premium', 'white']
+0 1 0 [0, 1, 0]
+
+['commerci', 'freaki', 'inspir', 'nike', 'total']
+0 0 1 [0, 0, 1]
+
+['api', 'good', 'slow', 'twitter']
+1 0 0 [1, 0, 0]
+
+['app', 'download', 'fun', 'iphon', 'liter']
+0 0 1 [0, 0, 1]
+
+['big', 'huge', 'kindl', 'look', 'love', 'month', 'remors']
+0 0 1 [0, 0, 1]
+
+['commer', 'espn', 'hilari', 'jus', 'lebron', 'lmao', 'nike', 'puppet', 'watchin']
+0 0 1 [0, 0, 1]
+
+['beast', 'close', 'lebron', 'nba']
+0 0 1 [0, 0, 1]
+
+['cabl', 'experi', 'girlfriend', 'plug', 'pull', 'time', 'tinyurl', 'warner']
+0 1 0 [0, 1, 0]
+
+['android', 'break', 'fast', 'fucker', 'googl', 'iphon', 'phone', 'play', 'prefer', 'scare', 'screen', 'slide']
+1 0 0 [1, 0, 0]
+
+['enjoy', 'lol', 'museum', 'night', 'tonit']
+1 0 0 [1, 0, 0]
+
+['class', 'suppos', 'today']
+0 0 1 [0, 0, 1]
+
+['china', 'dime', 'freakin', 'hell', 'pelosi']
+1 0 0 [1, 0, 0]
+
+['advic', 'great', 'market', 'sourc', 'viral']
+0 1 0 [0, 1, 0]
+
+['bay', 'breaker', 'degre', 'didnt', 'francisco', 'freak', 'glad', 'san', 'today', 'wtf']
+1 0 0 [1, 0, 0]
+
+['ach', 'sleep', 'tooth']
+1 0 0 [1, 0, 0]
+
+['advanc', 'basebal', 'cardin', 'face', 'friday', 'fullerton', 'region', 'super']
+0 1 0 [0, 1, 0]
+
+['check', 'correspond', 'dinner', 'hous', 'obama', 'presid', 'video', 'white']
+0 1 0 [0, 1, 0]
+
+['love', 'twitter']
+0 0 1 [0, 0, 1]
+
+['beij', 'call', 'china', 'climat', 'european', 'focus', 'govern', 'nation', 'turn', 'unit']
+0 1 0 [0, 1, 0]
+
+['boss', 'lebron']
+0 0 1 [0, 0, 1]
+
+['buy', 'car', 'time']
+0 1 0 [0, 1, 0]
+
+['call', 'fine', 'good', 'news', 'offic', 'relief', 'scam', 'sick', 'steal', 'visa']
+0 0 1 [0, 0, 1]
+
+['infect', 'insect', 'plant', 'spinach']
+1 0 0 [1, 0, 0]
+
+['alto', 'buildin', 'cal', 'cracka', 'doom', 'east', 'gta', 'hempz', 'karizmakaz', 'out', 'palo', 'profit', 'shout', 'univers']
+0 0 1 [0, 0, 1]
+
+['call', 'nike', 'time']
+0 1 0 [0, 1, 0]
+
+['gladwel', 'high', 'malcolm', 'recommend']
+0 0 1 [0, 0, 1]
+
+['biolog', 'human', 'love', 'nerdi', 'school', 'stanford', 'video']
+0 0 1 [0, 0, 1]
+
+['boy', 'museum', 'night', 'tall']
+0 1 0 [0, 1, 0]
+
+['francisco', 'san', 'suggest', 'today']
+0 1 0 [0, 1, 0]
+
+['awesom', 'regret', 'star', 'trek']
+0 0 1 [0, 0, 1]
+
+['crush', 'gladwel', 'malcolm', 'man']
+0 0 1 [0, 0, 1]
+
+['aerospac', 'area', 'binhai', 'china', 'develop', 'giant', 'invest', 'tianjin', 'yuan']
+0 1 0 [0, 1, 0]
+
+['layoff', 'nike', 'start', 'today', 'told']
+1 0 0 [1, 0, 0]
+
+['ceo', 'china', 'continu', 'key', 'partner']
+0 1 0 [0, 1, 0]
+
+['api', 'java', 'play', 'twitter']
+0 1 0 [0, 1, 0]
+
+['android', 'free', 'googl']
+0 0 1 [0, 0, 1]
+
+['friend', 'jqueri']
+0 0 1 [0, 0, 1]
+
+['bank', 'exam', 'holiday', 'season', 'suck', 'work']
+1 0 0 [1, 0, 0]
+
+['api', 'broken', 'connect', 'tweet', 'twitter']
+1 0 0 [1, 0, 0]
+
+['blip', 'busi', 'check', 'entri', 'good', 'googl', 'huh', 'show']
+0 1 0 [0, 1, 0]
+
+['boo', 'die', 'hahaha', 'worth']
+1 0 0 [1, 0, 0]
+
+['damn', 'lol', 'mcdonald', 'ohhde', 'omgg', 'open']
+0 0 1 [0, 0, 1]
+
+['amaz', 'aww', 'danni', 'gokey', 'listen']
+0 0 1 [0, 0, 1]
+
+['dentist', 'pet']
+0 1 0 [0, 1, 0]
+
+['bill', 'convers', 'gladwel', 'malcolm', 'simmon']
+0 1 0 [0, 1, 0]
+
+['announc', 'expect', 'hummer', 'reuter', 'sale', 'wdsugm']
+0 1 0 [0, 1, 0]
+
+['amp', 'campaign', 'chart', 'kennedi', 'love', 'mostvaluablepuppet', 'nike', 'ten', 'top', 'video', 'viral', 'watch', 'wieden']
+0 0 1 [0, 0, 1]
+
+['francisco', 'land', 'san']
+0 1 0 [0, 1, 0]
+
+['bore', 'exam', 'good', 'hate', 'revis', 'tomorrow', 'total', 'unprepar']
+1 0 0 [1, 0, 0]
+
+['basebal', 'leagu', 'major', 'play', 'start']
+0 1 0 [0, 1, 0]
+
+['great', 'help', 'inform', 'make', 'public', 'stanford', 'start']
+0 0 1 [0, 0, 1]
+
+['bay', 'breaker', 'francisco', 'san']
+0 1 0 [0, 1, 0]
+
+['itchi', 'lol']
+1 0 0 [1, 0, 0]
+
+['zomg']
+0 0 1 [0, 0, 1]
+
+['allen', 'ass', 'bad', 'booz', 'collabor', 'cool', 'hamilton', 'homegrown', 'platform', 'social', 'ttiv']
+0 0 1 [0, 0, 1]
+
+['damn', 'korea', 'north']
+1 0 0 [1, 0, 0]
+
+['dear', 'flywir', 'love', 'nike', 'scienc', 'shit', 'stop', 'ugli', 'wast']
+1 0 0 [1, 0, 0]
+
+['athlet', 'basketbal', 'debat', 'generat', 'inter', 'lebron', 'relat', 'sport', 'time']
+0 0 1 [0, 0, 1]
+
+['barri', 'china', 'class', 'high', 'myfoxdc', 'silver', 'spring', 'student', 'trip']
+0 1 0 [0, 1, 0]
+
+['answer', 'butt', 'yahoo']
+1 0 0 [1, 0, 0]
+
+['ad', 'adida', 'billup', 'brand', 'carmelo', 'howard', 'kobe', 'lebron', 'market', 'nba', 'nike', 'own', 'playoff']
+0 1 0 [0, 1, 0]
+
+['annoy', 'api', 'hate', 'soooo', 'srsli', 'stupid', 'timeout', 'twitter']
+1 0 0 [1, 0, 0]
+
+['aha', 'amp', 'bore', 'itchi', 'omg', 'tattoooo']
+1 0 0 [1, 0, 0]
+
+['api', 'class', 'code', 'find', 'friend', 'fun', 'generat', 'play', 'result', 'sound', 'twitter']
+0 0 1 [0, 0, 1]
+
+['lol', 'movi', 'museum', 'night']
+0 1 0 [0, 1, 0]
+
+['awesom']
+0 0 1 [0, 0, 1]
+
+['fair', 'kindl', 'perfect']
+0 0 1 [0, 0, 1]
+
+['add', 'case', 'list', 'market', 'peopl', 'studi', 'viral']
+0 1 0 [0, 1, 0]
+
+['cool', 'fantast', 'kindl', 'loooooooovvvvvvee']
+0 0 1 [0, 0, 1]
+
+['beast', 'cheer', 'lebron', 'til']
+1 0 0 [1, 0, 0]
+
+['bill', 'chief', 'dalli', 'name', 'nvidia', 'research', 'scientist']
+0 1 0 [0, 1, 0]
+
+['calculus', 'comput', 'exam', 'feel', 'field', 'graduat', 'idiot', 'lambda', 'scienc', 'today']
+1 0 0 [1, 0, 0]
+
+['bit', 'crazi', 'curv', 'doc', 'good', 'insan', 'learn', 'long', 'lyx', 'shorter', 'steep']
+0 0 1 [0, 0, 1]
+
+['give', 'program', 'support', 'unemploy']
+1 0 0 [1, 0, 0]
+
+['aig', 'amp', 'citi', 'deep', 'gonna', 'start', 'surviv', 'turmoil']
+1 0 0 [1, 0, 0]
+
+['bipart', 'bitch', 'cheney', 'dick', 'dnc', 'gop', 'hhrs', 'life', 'tcot', 'tlot']
+1 0 0 [1, 0, 0]
+
+['amaz', 'blink', 'book', 'gladwel', 'malcolm', 'point', 'tip']
+0 0 1 [0, 0, 1]
+
+['amp', 'ball', 'bullshit', 'cabl', 'channel', 'cking', 'damn', 'suck', 'time', 'warner']
+1 0 0 [1, 0, 0]
+
+['app', 'bird', 'data', 'engin', 'give', 'interfac', 'logo', 'strike', 'test', 'weka']
+0 1 0 [0, 1, 0]
+
+['custom', 'servic', 'time', 'warner', 'wors']
+1 0 0 [1, 0, 0]
+
+['charad', 'civil', 'conservat', 'desir', 'destroy', 'firm', 'obama', 'pelosi', 'slogan']
+1 0 0 [1, 0, 0]
+
+['chat', 'firesid', 'gwt']
+0 1 0 [0, 1, 0]
+
+['cav', 'hero', 'hometown', 'laker', 'lebron', 'lol', 'love']
+0 0 1 [0, 0, 1]
+
+['bailout', 'burn', 'cash', 'chrysler', 'financi', 'handout', 'mean', 'stop', 'tsunami']
+1 0 0 [1, 0, 0]
+
+['joke', 'love', 'obama']
+0 0 1 [0, 0, 1]
+
+['code', 'coupon', 'expir', 'soni']
+0 1 0 [0, 1, 0]
+
+['die', 'dvr', 'hate', 'nooooooo', 'presser', 'time', 'warner']
+1 0 0 [1, 0, 0]
+
+['nic', 'scrapbook']
+0 0 1 [0, 0, 1]
+
+['connect', 'fast', 'free', 'goug', 'internet', 'pay', 'reason', 'slow', 'tax', 'time', 'warner', 'year']
+1 0 0 [1, 0, 0]
+
+['esquir', 'star', 'trek']
+0 1 0 [0, 1, 0]
+
+['blah', 'guess', 'plan', 'sleep', 'today']
+0.76455182984 0 0.265993722465 [1, 0, 0]
+
+['bush', 'cheney', 'culprit', 'real']
+0 0 0.728804848907 [1, 0, 0]
+
+['aig', 'shaunwoo']
+0.252671356858 0 0 [1, 0, 0]
+
+['amp', 'long', 'montreal', 'need', 'weekend']
+0 0 0.686809470355 [0, 0, 1]
+
+['agenc', 'goodbi', 'great', 'silverstein', 'site']
+0 0 1 [0, 0, 1]
+
+['blow', 'korea', 'map', 'north']
+1 0 0 [1, 0, 0]
+
+['kati', 'museum', 'night', 'pick']
+0 1 0 [0, 1, 0]
+
+['die', 'fan', 'guy', 'hard', 'hate', 'jame', 'lebron', 'night', 'spur', 'talk', 'tell', 'told']
+1 0 0 [1, 0, 0]
+
+['fav', 'nike', 'word', 'work']
+0 0.416078592989 0.272520605451 [0, 0, 1]
+
+['blog', 'harvard', 'post', 'stanford', 'win']
+0 0 0.724431287031 [0, 1, 0]
+
+['aig', 'bay', 'chrysler', 'debt', 'exec', 'guantanamo', 'holder', 'militari', 'plan', 'resum', 'time', 'trial', 'tribun']
+0.68171175472 0.440567851984 0 [1, 0, 0]
+
+['brand', 'camera', 'canon', 'dslr', 'eo', 'len', 'technolog', 'thread', 'web']
+0 0 1 [0, 1, 0]
+
+['lebron', 'love']
+0 0 1 [0, 0, 1]
+
+['abort', 'anti', 'boortz', 'bunch', 'draw', 'dump', 'fli', 'neal', 'parti', 'radio', 'republican', 'zealot']
+0 0 0.28946927829 [1, 0, 0]
+
+['calculus', 'explain', 'lambda']
+0.26526564879 0 0.311867601158 [1, 0, 0]
+
+['administr', 'aig', 'bonus', 'obama', 'ponzi', 'schemer', 'stop']
+0.52128234816 0 0 [1, 0, 0]
+
+['laker', 'let', 'til', 'work']
+0.669417919147 0 0 [0, 0, 1]
+
+['boy', 'famili', 'fuin', 'movi', 'museum', 'night', 'year']
+0 1 0 [0, 1, 0]
+
+['awesom', 'duo', 'lebron', 'zydruna']
+0 0 1 [0, 0, 1]
+
+['annoy', 'gladwel', 'internet', 'lewi', 'malcolm', 'michael', 'peopl', 'pick', 'read', 'trend']
+0.273856929628 0 0.7380885025 [1, 0, 0]
+
+['canon', 'filter', 'good', 'pls', 'suggest']
+0.576334389853 0.329232017621 0.200507008017 [0, 1, 0]
+
+['dad', 'star', 'trek']
+0 0.516505424612 0.448973319808 [0, 1, 0]
+
+['book', 'jqueri', 'review']
+0 0 1 [0, 1, 0]
+
+['canon', 'chose', 'current', 'featur', 'love', 'mistak', 'nikon', 'video']
+0 0 0.654542413477 [0, 0, 1]
+
+['book', 'jqueri', 'learn', 'worth']
+0 0 1 [0, 0, 1]
+
+['bummer', 'cabl', 'day', 'memori', 'time', 'warner']
+0 0 0 [1, 0, 0]
+
+['enjoy', 'find', 'goodbi', 'nice', 'site']
+0 0 1 [0, 0, 1]
+
+['dick', 'dishonest', 'fred', 'kaplan', 'obama', 'slate', 'speech', 'terror', 'tortur']
+0.367151481598 0 0.217374919783 [1, 0, 0]
+
+['build', 'china', 'head', 'rocawear', 'store']
+0.539447173057 1 0 [0, 1, 0]
+
+['exam', 'higher', 'lookin', 'physic', 'tommorow']
+0.27453245504 0 0.231756256813 [1, 0, 0]
+
+687
+
++ 0.76455182984 0 0.265993722465 [1, 0, 0]
+- 0 0 0.728804848907 [1, 0, 0]
++ 0.252671356858 0 0 [1, 0, 0]
++ 0 0 0.686809470355 [0, 0, 1]
++ 0 0 1 [0, 0, 1]
++ 1 0 0 [1, 0, 0]
++ 0 1 0 [0, 1, 0]
++ 1 0 0 [1, 0, 0]
+- 0 0.416078592989 0.272520605451 [0, 0, 1]
+- 0 0 0.724431287031 [0, 1, 0]
++ 0.68171175472 0.440567851984 0 [1, 0, 0]
+- 0 0 1 [0, 1, 0]
++ 0 0 1 [0, 0, 1]
+- 0 0 0.28946927829 [1, 0, 0]
+- 0.26526564879 0 0.311867601158 [1, 0, 0]
++ 0.52128234816 0 0 [1, 0, 0]
+- 0.669417919147 0 0 [0, 0, 1]
++ 0 1 0 [0, 1, 0]
++ 0 0 1 [0, 0, 1]
+- 0.273856929628 0 0.7380885025 [1, 0, 0]
+- 0.576334389853 0.329232017621 0.200507008017 [0, 1, 0]
++ 0 0.516505424612 0.448973319808 [0, 1, 0]
+- 0 0 1 [0, 1, 0]
++ 0 0 0.654542413477 [0, 0, 1]
++ 0 0 1 [0, 0, 1]
+- 0 0 0 [1, 0, 0]
++ 0 0 1 [0, 0, 1]
++ 0.367151481598 0 0.217374919783 [1, 0, 0]
++ 0.539447173057 1 0 [0, 1, 0]
+- 0.27453245504 0 0.231756256813 [1, 0, 0]
+
+18/30 * 100 = 60%
+
+On 687 words
+
+Input 118 Tweets
+Output 30 tweets check
