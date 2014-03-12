@@ -15,7 +15,7 @@ moment = float(lines[2])
 training_data = []
 target_output = []
 for i in range(3,len(lines)):
-	l = [int(x) for x in lines[i].replace('\n','').split(' ')]
+	l = [float(x) for x in lines[i].replace('\n','').split(' ')]
 	training_data += [l[0:neurons_per_layer[0]]]
 	target_output += [l[neurons_per_layer[0]:]]
 
@@ -27,8 +27,8 @@ Input = [0]*neurons_per_layer[0]
 
 
 Output = [0]
-eta = 0.1 # learning rate
-moment = 0.1
+# eta = 0.1 # learning rate
+# moment = 0.1
 
 class Neuron:
 
@@ -211,7 +211,7 @@ print(iterations)
 while (True):
 	Input = []
 	for i in range(neurons_per_layer[0]):
-		Input += [int(input(''))]
+		Input += [float(input(''))]
 	for layer in network:
 		for neuron in layer:
 			neuron.cal_output(Input)

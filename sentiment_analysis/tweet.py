@@ -78,8 +78,14 @@ neurons_per_layer = [len(all_words),3] # first element = number of input lines2
 
 eta = 0.9
 moment = 0.1
-training_data = input_vectors[:int(len(input_vectors)*0.8)]
-target_output = output_vectors[:int(len(output_vectors)*0.8)]
+data_sets = [[],[],[],[],[]]
+output_sets = [[],[],[],[],[]]
+words_set = [[],[],[],[],[]]
+for i in range(5):
+	print len(input_vectors), int(len(input_vectors)*0.2*i), int(len(input_vectors)*0.2*(i+1))
+	data_sets[i] = input_vectors[int(len(input_vectors)*0.2*i):int(len(input_vectors)*0.2*(i+1))]
+	output_sets[i] = output_vectors[int(len(input_vectors)*0.2*i):int(len(input_vectors)*0.2*(i+1))]
+	words_set[i] = input_words[int(len(input_vectors)*0.2*i):int(len(input_vectors)*0.2*(i+1))]
 # 
 # training_data = input_vectors[:10]
 # target_output = output_vectors[:10]
@@ -187,101 +193,108 @@ for l in range(n_layers):
 # training_data[8] = [1,1,1,1,1,1,1]
 # training_data[9] = [1,1,1,1,1,1,0]
 
-x_vector = training_data
-def update_neurons():
-	for x in x_vector:
-		Input = x
-		Output = target_output[x_vector.index(x)]
-		for layer in network:
-			for neuron in layer:
-				neuron.cal_output(Input)
-		for layer in reversed(network):
-			for neuron in layer:
-				neuron.cal_delta(Output)
-		for layer in network:
-			for neuron in layer:
-				neuron.update_weight(Input)
+for dataI in range(5):
+	training_data = []
+	target_output = []
+	for i in range(5):
+		if not (i==dataI):
+			training_data += data_sets[i]
+			target_output += output_sets[i] 
+	x_vector = training_data
+	def update_neurons():
+		for x in x_vector:
+			Input = x
+			Output = target_output[x_vector.index(x)]
+			for layer in network:
+				for neuron in layer:
+					neuron.cal_output(Input)
+			for layer in reversed(network):
+				for neuron in layer:
+					neuron.cal_delta(Output)
+			for layer in network:
+				for neuron in layer:
+					neuron.update_weight(Input)
 
-def get_error():
-	error = 0
-	for i in range(len(x_vector)):
-		Input = x_vector[i]
-		Output = output_vectors[i]
-		for layer in network:
-			for neuron in layer:
-				neuron.cal_output(Input)
-		error += sum([(x-y.output)*(x-y.output) for x,y in zip(Output,network[-1])])
-	return error
+	def get_error():
+		error = 0
+		for i in range(len(x_vector)):
+			Input = x_vector[i]
+			Output = target_output[i]
+			for layer in network:
+				for neuron in layer:
+					neuron.cal_output(Input)
+			error += sum([(x-y.output)*(x-y.output) for x,y in zip(Output,network[-1])])
+		return error
 
-def get_output(x_vector, out_vector, test_words):
-	for i in range(len(x_vector)):
-		Input = x_vector[i]
-		Output = out_vector[i]
-		for layer in network:
-			for neuron in layer:
-				neuron.cal_output(Input)
-		# print (Input),
-		print test_words[i]
-		for w in network[-1]:
-			if (w.output >= 0.8): print(1),
-			elif(w.output<=0.2): print(0),
-			else: print(w.output),
-		print Output
-		print('\n')
+	def get_output(x_vector, out_vector, test_words):
+		for i in range(len(x_vector)):
+			Input = x_vector[i]
+			Output = out_vector[i]
+			for layer in network:
+				for neuron in layer:
+					neuron.cal_output(Input)
+			# print (Input),
+			print test_words[i]
+			for w in network[-1]:
+				if (w.output >= 0.8): print(1),
+				elif(w.output<=0.2): print(0),
+				else: print(w.output),
+			print Output
+			print('\n')
 
-factor = 0;
+	factor = 0;
 
-cur_error = get_error()
-threshhold = 0.02 * neurons_per_layer[-1]
-count = 0
-iterations=0;
-while True:
-	iterations+=1
-	if (cur_error < threshhold):
-		break
-	if(count==100):
-		count = 0
-		factor += 1
-		print (factor*100, cur_error)
-	count+=1
+	cur_error = get_error()
+	threshhold = 0.02 * neurons_per_layer[-1]
+	count = 0
+	iterations=0;
+	while True:
+		iterations+=1
+		if (cur_error < threshhold):
+			break
+		if(count==100):
+			count = 0
+			factor += 1
+			print (factor*100, cur_error)
+		count+=1
+
+		print(cur_error)
+		# print(prev_error)
+		# for layer in network:
+		# 	for neuron in layer:
+		# 		print(neuron.in_weights)
+		# 		print('')
+		# 		print(neuron.layer,neuron.index)
+		# 		print('')
+		# print('\n')
+		update_neurons()
+		# for layer in network:
+		# 	for neuron in layer:
+		# 		print(neuron.in_weights)
+		temp = cur_error
+		cur_error = get_error()
+		# temp -= cur_error
+		# if (temp>=0.1):
+		# 	eta/=2
+		# elif (temp<=0.001):
+		# 	eta*=2
+		# 	if(eta>1): eta/=2
+		# else:
+		# 	pass
 
 	print(cur_error)
-	# print(prev_error)
-	# for layer in network:
-	# 	for neuron in layer:
-	# 		print(neuron.in_weights)
-	# 		print('')
-	# 		print(neuron.layer,neuron.index)
-	# 		print('')
-	# print('\n')
-	update_neurons()
-	# for layer in network:
-	# 	for neuron in layer:
-	# 		print(neuron.in_weights)
-	temp = cur_error
-	cur_error = get_error()
-	# temp -= cur_error
-	# if (temp>=0.1):
-	# 	eta/=2
-	# elif (temp<=0.001):
-	# 	eta*=2
-	# 	if(eta>1): eta/=2
-	# else:
-	# 	pass
+	test_vector = data_sets[i]
+	test_output = output_sets[i]
+	test_words = words_set[i]
+	get_output(input_vectors, output_vectors, input_words)
 
-print(cur_error)
-test_vector = input_vectors[int(len(input_vectors)*0.8):]
-test_output = output_vectors[int(len(input_vectors)*0.8):]
-test_words = input_words[int(len(input_vectors)*0.8):]
-get_output(input_vectors, output_vectors, input_words)
+	print(iterations)
 
-print(iterations)
-
-# while (True):
-# 	Input = []
-# 	for i in range(neurons_per_layer[0]):
-# 		Input += [int(input(''))]
-# 	for layer in network:
-# 		for neuron in layer:
-# 			neuron.cal_output(Input)
-# 	print (Input, [w.output for w in network[-1]])
+	# while (True):
+	# 	Input = []
+	# 	for i in range(neurons_per_layer[0]):
+	# 		Input += [int(input(''))]
+	# 	for layer in network:
+	# 		for neuron in layer:
+	# 			neuron.cal_output(Input)
+	# 	print (Input, [w.output for w in network[-1]])
