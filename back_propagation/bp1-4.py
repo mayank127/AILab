@@ -60,7 +60,7 @@ class Neuron:
 
 	def init_weights(self):
 		for i in range(neurons_per_layer[self.layer-1]+1):
-			self.in_weights += [(2*random()-1)]
+			self.in_weights += [(3*random()-1)]
 			self.moment_weights += [0]
 
 	def cal_delta(self, Output):
@@ -206,7 +206,7 @@ for dataI in range(5):
 	factor = 0;
 
 	cur_error = get_error()
-	threshhold = 0.02 * neurons_per_layer[-1]
+	threshhold = 1 #0.02 * neurons_per_layer[-1]
 	count = 0
 	iterations=0;
 	while True:
@@ -216,7 +216,7 @@ for dataI in range(5):
 		if(count==100):
 			count = 0
 			factor += 1
-			print (factor*100, cur_error)
+			print (cur_error)
 		count+=1
 
 		# print(cur_error)
@@ -242,8 +242,8 @@ for dataI in range(5):
 		# 	if(eta>1): eta/=2
 		# else:
 		# 	pass
-	test_vector = data_sets[i]
-	test_output = output_sets[i]
+	test_vector = data_sets[dataI]
+	test_output = output_sets[dataI]
 	print(cur_error)
 	truecount,falsecount = get_output(test_vector, test_output)
 	print("true", truecount)
