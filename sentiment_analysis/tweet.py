@@ -9,7 +9,7 @@ import numpy
 
 brk = re.compile("(?:(?:[^a-zA-Z@]+')|(?:'[^a-zA-Z@]+))|(?:[^a-zA-Z@']+)")
 
-data_count = 0.25
+data_count = 1
 
 def extract_words(line):
 	words = []
@@ -194,12 +194,20 @@ for l in range(n_layers):
 # training_data[9] = [1,1,1,1,1,1,0]
 
 for dataI in range(5):
+	network = []
 	training_data = []
 	target_output = []
 	for i in range(5):
 		if not (i==dataI):
 			training_data += data_sets[i]
-			target_output += output_sets[i] 
+			target_output += output_sets[i]
+
+	for l in range(n_layers):
+		layers = []
+		for i in range(neurons_per_layer[l+1]):
+			temp = Neuron(l+1, i)
+			layers += [temp]
+		network += [layers]
 	x_vector = training_data
 	def update_neurons():
 		for x in x_vector:
@@ -227,25 +235,42 @@ for dataI in range(5):
 		return error
 
 	def get_output(x_vector, out_vector, test_words):
+		truecount = 0
+		falsecount = 0
 		for i in range(len(x_vector)):
 			Input = x_vector[i]
 			Output = out_vector[i]
 			for layer in network:
 				for neuron in layer:
 					neuron.cal_output(Input)
-			# print (Input),
-			print test_words[i]
+			print (test_words[i]),
+			maxVar = network[-1][0].output
 			for w in network[-1]:
-				if (w.output >= 0.8): print(1),
-				elif(w.output<=0.2): print(0),
-				else: print(w.output),
-			print Output
+				if(maxVar < w.output):
+					maxVar = w.output
+				print w.output,
+			ans = []
+			for w in network[-1]:
+				if(maxVar == w.output):
+					ans += [1]
+				else:
+					ans += [0]
+			print ans,
+			print Output,
+			print (ans == Output)
 			print('\n')
+			print (ans == Output)
+			if(ans==Output):
+				truecount += 1
+			else:
+				falsecount += 1
+			print('\n')
+		return [truecount, falsecount]
 
 	factor = 0;
 
 	cur_error = get_error()
-	threshhold = 0.02 * neurons_per_layer[-1]
+	threshhold = 10 #0.02 * neurons_per_layer[-1]
 	count = 0
 	iterations=0;
 	while True:
@@ -283,11 +308,12 @@ for dataI in range(5):
 		# 	pass
 
 	print(cur_error)
-	test_vector = data_sets[i]
-	test_output = output_sets[i]
-	test_words = words_set[i]
-	get_output(input_vectors, output_vectors, input_words)
-
+	test_vector = data_sets[dataI]
+	test_output = output_sets[dataI]
+	test_words = words_set[dataI]
+	truecount,falsecount = get_output(test_vector, test_output, test_words)
+	print("true", truecount)
+	print("false", falsecount)
 	print(iterations)
 
 	# while (True):
