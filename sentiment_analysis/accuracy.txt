@@ -1,0 +1,30 @@
+Total 1403 Words
+Total 498 Tweets
+
+Set - 1
+	True 58
+	False 41
+	Iterations 29
+	Accuracy 58.58%
+Set - 2
+	True 65
+	False 35
+	Iterations 29
+	Accuracy 65.00%
+Set - 3
+	True 68
+	False 31
+	Iterations 45
+	Accuracy 68.68%
+Set - 4
+	True 64
+	False 36
+	Iterations 30
+	Accuracy 64.00%
+Set - 5
+	True 65
+	False 35
+	Iterations 29
+	Accuracy 65.00%
+
+Averag - 64.25%

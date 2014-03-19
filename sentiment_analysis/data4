@@ -1,0 +1,3172 @@
+['aapl', 'abort', 'absolut', 'access', 'accid', 'accost', 'account', 'acg', 'ach', 'acia', 'ad', 'adam', 'add', 'addict', 'adida', 'administr', 'admiss', 'adob', 'advanc', 'advic', 'aerospac', 'africa', 'afternoon', 'agenc', 'aha', 'ahh', 'ahhh', 'aig', 'air', 'ajax', 'ala', 'alex', 'allen', 'alot', 'alpha', 'alto', 'amaz', 'amazon', 'america', 'american', 'amount', 'amp', 'amphitheatr', 'android', 'angri', 'anim', 'announc', 'annoy', 'answer', 'anti', 'anymor', 'apart', 'apatow', 'api', 'apolog', 'app', 'appear', 'appl', 'appli', 'appoint', 'appt', 'apr', 'arab', 'area', 'arg', 'argghhhh', 'arhh', 'arriv', 'arrrgh', 'articl', 'ask', 'ass', 'asses', 'asshol', 'ate', 'atebit', 'athlet', 'att', 'audiobook', 'aunti', 'author', 'avoid', 'aw', 'await', 'awak', 'award', 'awesom', 'aww', 'bad', 'bag', 'bailout', 'ball', 'banana', 'bank', 'bankrupt', 'bankruptci', 'barack', 'barbara', 'barrag', 'barri', 'basebal', 'baseballamerica', 'basketbal', 'bastard', 'bathroom', 'battl', 'bay', 'bball', 'beast', 'beauti', 'bed', 'bedroom', 'begin', 'beij', 'bell', 'ben', 'beta', 'biden', 'big', 'bike', 'bill', 'billion', 'billup', 'bing', 'binhai', 'bio', 'biolog', 'bipart', 'bird', 'bit', 'bitch', 'bitin', 'bitten', 'bitter', 'black', 'blah', 'blazer', 'blech', 'blink', 'blip', 'block', 'blog', 'blood', 'bloomingdal', 'blow', 'board', 'bob', 'bobbi', 'bonjour', 'bonus', 'boo', 'book', 'boortz', 'boot', 'booz', 'bore', 'boss', 'bottl', 'bought', 'bout', 'boy', 'boyfriend', 'boyl', 'brad', 'braindead', 'brand', 'break', 'breaker', 'breakfast', 'bring', 'broccoli', 'broken', 'browser', 'brush', 'btw', 'bud', 'buffer', 'buffet', 'buffett', 'bug', 'build', 'buildin', 'bullshit', 'bum', 'bummer', 'bunch', 'burger', 'burn', 'bush', 'busi', 'butt', 'buy', 'buzz', 'bye', 'cabl', 'cadillac', 'cake', 'cal', 'calcio', 'calculus', 'cali', 'call', 'camera', 'campaign', 'canon', 'car', 'card', 'cardin', 'care', 'carmelo', 'carton', 'case', 'cash', 'cast', 'catch', 'causin', 'cav', 'cbs', 'ceas', 'cell', 'ceo', 'chang', 'channel', 'charact', 'charad', 'chariti', 'chart', 'chat', 'cheap', 'cheaper', 'cheat', 'check', 'cheer', 'cheney', 'chevi', 'chick', 'chicken', 'chief', 'child', 'china', 'chip', 'chose', 'chrysler', 'church', 'citi', 'civil', 'cking', 'class', 'classic', 'classif', 'climat', 'clinton', 'close', 'closer', 'club', 'cnn', 'coca', 'coda', 'code', 'cola', 'cold', 'colin', 'collabor', 'collaps', 'colleg', 'colorway', 'column', 'comcast', 'come', 'comedian', 'commenc', 'commer', 'commerci', 'compar', 'complain', 'complet', 'compon', 'comput', 'concord', 'conduct', 'confer', 'confirm', 'connect', 'consequ', 'conservat', 'contact', 'continu', 'contract', 'convers', 'cook', 'cookbook', 'cool', 'coordin', 'correspond', 'counti', 'countri', 'coupon', 'cox', 'cracka', 'crap', 'crappi', 'crash', 'crazi', 'creat', 'cripp', 'crush', 'css', 'culprit', 'cunt', 'cup', 'curl', 'current', 'curs', 'curv', 'custom', 'cut', 'cute', 'cuz', 'dad', 'dalli', 'dame', 'damn', 'dan', 'danni', 'data', 'date', 'dave', 'david', 'day', 'dead', 'deadlin', 'deal', 'dear', 'dearest', 'death', 'debat', 'debit', 'debt', 'decid', 'deep', 'default', 'degre', 'delet', 'delirium', 'demo', 'dentist', 'depress', 'desir', 'desper', 'destroy', 'develop', 'devic', 'devil', 'devsnippet', 'dick', 'didnt', 'die', 'dime', 'dinner', 'disast', 'discomort', 'dishonest', 'dislik', 'disrupt', 'dissapoint', 'divis', 'dnc', 'doc', 'dont', 'dood', 'doom', 'dot', 'douchebaggeri', 'dougla', 'download', 'draw', 'dri', 'drink', 'drive', 'drop', 'drove', 'dslr', 'dslreport', 'dude', 'dum', 'dumber', 'dump', 'dunk', 'duo', 'dvr', 'dwight', 'eagl', 'east', 'eat', 'economi', 'edit', 'editor', 'ef', 'effect', 'egg', 'ehfa', 'elect', 'electron', 'elkhorn', 'employe', 'empti', 'engin', 'enhanc', 'enjoy', 'entri', 'enuf', 'environ', 'eo', 'epic', 'eread', 'espn', 'esquir', 'essay', 'ethic', 'european', 'even', 'everyday', 'evr', 'exam', 'exampl', 'excit', 'exec', 'expect', 'expens', 'experi', 'expir', 'explain', 'explod', 'express', 'extra', 'extract', 'eye', 'fabul', 'face', 'facebook', 'factori', 'fail', 'fair', 'fake', 'famili', 'fan', 'fantast', 'fashion', 'fast', 'fault', 'fav', 'favorit', 'featur', 'feder', 'fee', 'feed', 'feel', 'fest', 'festiv', 'fhg', 'field', 'fieri', 'fifa', 'fight', 'fil', 'file', 'fill', 'filter', 'final', 'financi', 'find', 'fine', 'finish', 'firesid', 'firm', 'fish', 'fit', 'fix', 'flay', 'fli', 'flight', 'flockofseagullsweregeopoliticallycorrect', 'flywir', 'fml', 'focus', 'follow', 'font', 'food', 'forc', 'fortun', 'francisco', 'freak', 'freaki', 'freakin', 'fred', 'free', 'french', 'fricken', 'friday', 'fridg', 'friend', 'friggin', 'frustrat', 'fuck', 'fucker', 'fuin', 'fullerton', 'fun', 'function', 'fund', 'funfun', 'funni', 'furious', 'furkin', 'fuzzbal', 'game', 'gave', 'geeki', 'geldof', 'general', 'generat', 'genius', 'giant', 'gift', 'giggl', 'girl', 'girlfriend', 'give', 'glad', 'gladwel', 'goddam', 'gokey', 'gonna', 'good', 'goodbi', 'goodi', 'googl', 'googleio', 'goooood', 'gop', 'gotta', 'goug', 'govern', 'govt', 'gps', 'graduat', 'graphic', 'grate', 'great', 'greater', 'green', 'grill', 'groceri', 'grr', 'gsb', 'gta', 'guantanamo', 'guess', 'guitar', 'gum', 'gut', 'guy', 'gwt', 'gym', 'hack', 'haha', 'hahaha', 'hair', 'hamilton', 'handout', 'happi', 'harass', 'hard', 'harvard', 'hate', 'head', 'healthi', 'hear', 'heard', 'heck', 'hell', 'help', 'hempz', 'hero', 'hey', 'hhrs', 'hideous', 'high', 'higher', 'highlight', 'hilari', 'hill', 'hint', 'histori', 'hit', 'hitler', 'hmm', 'holder', 'holiday', 'home', 'homegrown', 'hometown', 'honda', 'hong', 'honor', 'hope', 'hord', 'host', 'hotel', 'hour', 'hous', 'howard', 'html', 'hubbi', 'huge', 'huh', 'human', 'hummer', 'hungri', 'hurrican', 'hurt', 'icecream', 'idea', 'idiot', 'idol', 'iii', 'ima', 'imgsearch', 'impati', 'implement', 'implod', 'impress', 'improv', 'includ', 'incred', 'indesign', 'india', 'indian', 'inevit', 'infect', 'inform', 'inkscap', 'innov', 'insan', 'insect', 'insight', 'inspir', 'instal', 'instant', 'inter', 'interest', 'interfac', 'internet', 'invent', 'invest', 'investig', 'investor', 'invit', 'iphon', 'iran', 'iranelect', 'itchi', 'itun', 'jack', 'jame', 'janell', 'java', 'javascript', 'jenna', 'jet', 'job', 'join', 'joke', 'jqueri', 'judd', 'junk', 'jus', 'kaplan', 'karizmakaz', 'kathleen', 'kati', 'katydid', 'katz', 'kendra', 'kennedi', 'key', 'keynot', 'khaki', 'kick', 'kid', 'kill', 'kinda', 'kindl', 'kitchen', 'klunki', 'kobe', 'kong', 'korea', 'lack', 'ladi', 'laker', 'lam', 'lambda', 'lambert', 'land', 'late', 'latest', 'latex', 'launch', 'lawnmow', 'lawson', 'layoff', 'lead', 'leagu', 'learn', 'lebron', 'led', 'lee', 'left', 'lehman', 'len', 'let', 'lewi', 'lhu', 'lie', 'life', 'lift', 'light', 'limit', 'line', 'linux', 'list', 'listen', 'liter', 'live', 'lmao', 'load', 'loan', 'locat', 'logo', 'lol', 'long', 'loo', 'look', 'lookin', 'loooong', 'loooooooovvvvvvee', 'lost', 'lot', 'loung', 'love', 'lovin', 'lucki', 'luke', 'lunch', 'lyx', 'mac', 'magazin', 'mail', 'major', 'make', 'malcolm', 'man', 'map', 'market', 'marri', 'martinez', 'marvin', 'mate', 'math', 'mathemat', 'mba', 'mcdonald', 'meal', 'mean', 'meat', 'media', 'meet', 'melo', 'member', 'memori', 'mention', 'mentor', 'mesa', 'met', 'mhz', 'michael', 'mid', 'militari', 'milrocke', 'min', 'minut', 'miser', 'miss', 'mistak', 'mkii', 'mluc', 'mmm', 'mmmmmfamili', 'mobil', 'model', 'modem', 'monday', 'money', 'monkey', 'monsta', 'month', 'montreal', 'morn', 'moro', 'mosquito', 'mostvaluablepuppet', 'motor', 'motwani', 'mountain', 'move', 'movi', 'msgs', 'mtv', 'muppet', 'murder', 'museum', 'music', 'mustang', 'myfoxdc', 'nail', 'naiv', 'name', 'nanci', 'nap', 'nation', 'natur', 'nba', 'nbc', 'ncaa', 'ncis', 'neal', 'need', 'nelson', 'nerd', 'nerdi', 'net', 'network', 'newedg', 'news', 'nic', 'nice', 'nicer', 'nigga', 'night', 'nightmar', 'nike', 'nikon', 'nin', 'nonprofit', 'nooooooo', 'normal', 'north', 'note', 'notic', 'notr', 'nuclear', 'nugget', 'nuggetssss', 'number', 'nut', 'nvidia', 'obama', 'obsess', 'offens', 'offer', 'offic', 'offici', 'ohhde', 'oldi', 'omg', 'omgg', 'onlin', 'onstar', 'ooooh', 'oooooooh', 'open', 'oper', 'opt', 'option', 'oughta', 'out', 'outlet', 'outlier', 'outta', 'ovat', 'own', 'page', 'pain', 'pair', 'palin', 'palm', 'palo', 'park', 'part', 'parti', 'partner', 'pastrami', 'pay', 'pelosi', 'pend', 'peopl', 'pepper', 'perfect', 'period', 'person', 'pet', 'phil', 'philip', 'philli', 'phoenix', 'phone', 'photo', 'photographi', 'php', 'physic', 'piano', 'pic', 'pick', 'pictur', 'pill', 'pink', 'piss', 'place', 'plan', 'plane', 'plant', 'platform', 'platinum', 'play', 'player', 'playoff', 'pleasant', 'pls', 'plug', 'plugin', 'pocket', 'point', 'polit', 'ponzi', 'popular', 'porn', 'portland', 'possibl', 'post', 'powel', 'power', 'prayer', 'prefer', 'premium', 'prepar', 'presid', 'presser', 'preteni', 'pretens', 'pretti', 'prettiest', 'price', 'primari', 'privat', 'prob', 'problem', 'prof', 'profil', 'profit', 'program', 'programm', 'promot', 'propr', 'pros', 'prospect', 'proud', 'prs', 'psyop', 'public', 'pull', 'puppet', 'put', 'python', 'quaint', 'qualiti', 'quesadilla', 'rachel', 'radio', 'rajeev', 'ram', 'rank', 'rantsandrav', 'rape', 'rate', 'rds', 'read', 'reader', 'readi', 'real', 'realiz', 'reason', 'receip', 'receiv', 'recommend', 'record', 'recov', 'refer', 'region', 'regret', 'regular', 'relat', 'releas', 'relief', 'remors', 'remot', 'rep', 'repeat', 'republ', 'republican', 'request', 'research', 'resold', 'restaur', 'result', 'resultsbi', 'resum', 'retir', 'reuter', 'review', 'revis', 'rhino', 'rich', 'richest', 'rid', 'riddanc', 'ride', 'risotto', 'road', 'robin', 'rocawear', 'rock', 'roger', 'roll', 'room', 'roomi', 'run', 'runner', 'ryan', 'sad', 'safari', 'safeway', 'sale', 'san', 'sandbox', 'sarah', 'sashimi', 'satisfi', 'saturday', 'save', 'sayin', 'scam', 'scandal', 'scare', 'scarey', 'scari', 'schemer', 'school', 'scienc', 'scientist', 'scrapbook', 'scratch', 'scream', 'screen', 'screw', 'sdsu', 'search', 'season', 'select', 'selector', 'sell', 'sen', 'send', 'serv', 'servic', 'session', 'shade', 'shame', 'share', 'shaunwoo', 'sheer', 'sheet', 'sherri', 'ship', 'shirt', 'shit', 'shitti', 'shoe', 'shop', 'shorelin', 'short', 'shorter', 'shout', 'show', 'shut', 'sick', 'side', 'sign', 'signal', 'silver', 'silverstein', 'simmon', 'singapor', 'sit', 'sitcom', 'site', 'sitterc', 'situat', 'skin', 'slate', 'slave', 'sleep', 'slide', 'slightest', 'slogan', 'slow', 'slowli', 'small', 'smart', 'smell', 'smh', 'snap', 'snappi', 'social', 'socialentrepreneurship', 'sold', 'soldier', 'solid', 'son', 'soni', 'sooo', 'soooo', 'soooooo', 'soul', 'sound', 'sourc', 'south', 'speak', 'speech', 'speed', 'spent', 'spi', 'spinach', 'spokenfor', 'sport', 'spot', 'spring', 'spur', 'spx', 'srsli', 'staci', 'stack', 'stand', 'stanford', 'stapl', 'star', 'start', 'state', 'stay', 'steal', 'steep', 'stick', 'stiller', 'stimulus', 'stinkin', 'stock', 'stop', 'store', 'stormweight', 'strike', 'stude', 'student', 'studi', 'stuff', 'stupid', 'style', 'submit', 'success', 'suck', 'suggest', 'sum', 'summer', 'summiz', 'super', 'superslow', 'support', 'suppos', 'surgeri', 'surpris', 'survey', 'surviv', 'susan', 'svcs', 'sweet', 'switch', 'swithsonian', 'taco', 'tag', 'talent', 'talk', 'tall', 'tamasha', 'tattoooo', 'tax', 'tbh', 'tcot', 'tea', 'teach', 'teal', 'technolog', 'tell', 'tempt', 'ten', 'tenni', 'term', 'terrifi', 'terror', 'test', 'tether', 'texn', 'text', 'think', 'thought', 'thread', 'throttl', 'thursday', 'tianjin', 'ticker', 'ticket', 'til', 'time', 'timeout', 'tinyurl', 'tip', 'tire', 'tivo', 'tlot', 'today', 'told', 'tom', 'tommorow', 'tomorrow', 'tone', 'tonight', 'tonit', 'tool', 'tooth', 'top', 'topic', 'tortur', 'total', 'tour', 'town', 'toy', 'track', 'train', 'trainer', 'translat', 'tree', 'trek', 'tremen', 'trend', 'trial', 'tribun', 'trick', 'trip', 'troubl', 'troubleeee', 'true', 'tsunami', 'ttiv', 'tuesday', 'turmoil', 'turn', 'tweet', 'twippin', 'twitter', 'txt', 'typeset', 'typic', 'uaw', 'ugh', 'ughh', 'ugli', 'ultim', 'ummm', 'underestim', 'understand', 'undo', 'unemploy', 'unfold', 'unfortun', 'unhelp', 'unit', 'univers', 'unlimit', 'unprepar', 'updat', 'upgrad', 'upset', 'upsid', 'useless', 'vast', 'vehicl', 'verizon', 'vers', 'version', 'video', 'view', 'vio', 'viral', 'visa', 'visual', 'vitamin', 'voic', 'voiceov', 'vote', 'wait', 'walk', 'warner', 'warranti', 'warren', 'wast', 'waster', 'wat', 'watch', 'watchin', 'water', 'wave', 'wcdma', 'wdsugm', 'web', 'webapp', 'webdesign', 'wednesday', 'week', 'weekend', 'weight', 'weird', 'weka', 'well', 'wftb', 'white', 'whoop', 'whoopi', 'wieden', 'wikipedia', 'william', 'win', 'window', 'winer', 'winner', 'wish', 'wolfram', 'wolverin', 'won', 'wonder', 'woot', 'word', 'work', 'world', 'wors', 'worst', 'worth', 'wow', 'wrapper', 'wrist', 'writer', 'wrong', 'wtf', 'wtfffff', 'wth', 'wwdc', 'wysiwyg', 'yahoo', 'yanke', 'yay', 'yea', 'yeah', 'yeahhhhhhhhh', 'year', 'yeeeee', 'yeezi', 'yema', 'yesterday', 'york', 'youtub', 'yuan', 'yummmmmi', 'zealot', 'zomg', 'zoom', 'zydruna']
+1403
+498 0 99
+498 99 199
+498 199 298
+498 298 398
+498 398 498
+387.834917062
+202.741809362
+140.141429137
+105.917827301
+84.4031534012
+68.3630454824
+56.4044837286
+47.8368454823
+41.757445452
+37.2840376144
+33.7622500139
+30.8428959133
+28.3126511247
+26.0258574016
+23.8530414191
+21.8251051904
+19.9339211727
+18.3471268594
+17.0997082037
+16.0492501093
+15.1385600951
+14.1948408606
+13.1938871628
+12.4247161006
+11.8420959132
+11.3415537816
+10.8807815224
+10.4356394494
+9.98424361736
+['api', 'test', 'twitter'] 0.382405907368 0.17497949492 0.299025575816 [1, 0, 0] [0, 1, 0] False
+
+
+False
+
+
+['alex', 'battl', 'boot', 'buffet', 'buffett', 'butt', 'cripp', 'kick', 'post', 'warren'] 0.135430573081 0.969367509568 0.657032838632 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['dentist', 'ef', 'hate'] 0.950920560002 0.115212016314 0.0151896184464 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['star', 'tonight', 'trek', 'wait'] 0.0132688947378 0.659044561946 0.862640771659 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['crazi', 'fan', 'hit', 'iran', 'iranelect'] 0.537609006839 0.122566094725 0.228331551659 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['amp', 'contract', 'iphon', 'mid', 'pay', 'piss', 'price', 'thought', 'upgrad'] 0.990415306651 0.195690101818 0.0366907428799 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['date', 'egg', 'goddam', 'laker', 'mcdonald', 'sick', 'suck', 'true', 'updat', 'yeah'] 0.0728530381388 0.0556516767804 0.943216451988 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['dentist', 'hate'] 0.902559938423 0.0818197710869 0.0195011200784 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['big', 'buffet', 'fortun', 'idea', 'invest', 'lead', 'man', 'richest', 'state', 'time', 'unit', 'warren', 'work'] 0.0043054561515 0.557632615092 0.438407272822 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['amaz', 'btw', 'huge', 'improv'] 0.0392568542523 0.194450128807 0.245862874067 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['exam', 'histori', 'studi', 'ugh'] 0.351616726139 0.668130664692 0.0666493938154 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['amaz', 'museum', 'night', 'star', 'trek'] 0.00706337361065 0.723617688162 0.763184901635 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['api', 'twitter'] 0.306477525593 0.169167757624 0.252353341008 [1, 0, 0] [0, 1, 0] False
+
+
+False
+
+
+['bailout', 'burn', 'cash', 'chrysler', 'financi', 'handout', 'mean', 'stop', 'tsunami'] 0.918532527522 0.105345077517 0.651802636498 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['offic'] 0.240439490698 0.418086851043 0.104501412417 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['die', 'dvr', 'hate', 'nooooooo', 'presser', 'time', 'warner'] 0.998538444338 0.0410624824723 0.000512107558901 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['confirm', 'fault', 'load', 'minut', 'switch', 'tempt', 'time', 'verizon'] 0.386893682401 0.819369356033 0.0314131602447 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['creat', 'file', 'great', 'latex', 'scratch', 'time', 'waster', 'work'] 0.415995377748 0.0239037858343 0.0104427319017 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['elect', 'india', 'time'] 0.0300653590724 0.272030783447 0.0343510535529 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['dentist', 'discomort', 'feel', 'hurt', 'lie', 'man', 'pain', 'pill', 'prob', 'shit', 'twippin'] 0.872312236414 0.0191173034997 0.0125390351535 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['francisco', 'land', 'san'] 0.0520182985175 0.725539532767 0.280694678721 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['cadillac', 'cali', 'drive', 'philli', 'top', 'win'] 0.555669015762 0.236120426567 0.122650780656 [1, 0, 0] [0, 1, 0] False
+
+
+False
+
+
+['absolut', 'blow', 'custom', 'hate', 'high', 'net', 'nuclear', 'option', 'readi', 'road', 'runner', 'speed', 'support', 'time', 'warner'] 0.998642789402 0.0307377252845 0.00558277405054 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['alpha', 'googl', 'vast', 'wolfram'] 0.300556404947 0.84056751895 0.3958109015 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['basebal', 'club', 'ncaa', 'ram', 'region', 'super'] 0.0929821690261 0.55282419576 0.252352722752 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['cake', 'eat'] 0.0346484324215 0.95045523805 0.0840588221177 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['crap', 'line', 'time'] 0.307291430501 0.809194632767 0.00455942140383 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['dude', 'gladwel', 'malcolm', 'meet', 'underestim'] 0.537993977488 0.475360419971 0.231515524954 [1, 0, 0] [0, 0, 1] False
+
+
+False
+
+
+['abort', 'anti', 'boortz', 'bunch', 'draw', 'dump', 'fli', 'neal', 'parti', 'radio', 'republican', 'zealot'] 0.0606782950471 0.154224953578 0.283433420895 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['boy', 'chick', 'damn', 'fil', 'home', 'internet', 'stupid', 'time', 'warner'] 0.998442524561 0.111871874899 0.00217076486538 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['pick', 'safeway', 'stapl'] 0.307272711445 0.935709633948 0.0140301192691 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['gladwel', 'high', 'malcolm', 'recommend'] 0.260642265551 0.0627099897641 0.957223910008 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['pros', 'twitter'] 0.113049881674 0.109868966207 0.426519059946 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['bank', 'exam', 'holiday', 'season', 'suck', 'work'] 0.281476695574 0.0964477659801 0.625003979324 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['fair', 'kindl', 'perfect'] 0.0381301114795 0.301734379132 0.910119627348 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['ceo', 'china', 'continu', 'key', 'partner'] 0.248822023667 0.102211363828 0.35598904414 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['bobbi', 'favorit', 'flay', 'great', 'lam', 'love', 'pepper', 'phoenix', 'place'] 0.0263278936779 0.0115649774575 0.929685774877 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['alpha', 'googl', 'inform', 'research', 'suck', 'total', 'useless', 'wikipedia', 'wolfram'] 0.128313522065 0.238187421567 0.455292818158 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['amp', 'ball', 'bullshit', 'cabl', 'channel', 'cking', 'damn', 'suck', 'time', 'warner'] 0.999726952723 0.00334097150059 0.00348419066647 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['rock', 'roll', 'safeway', 'tonight'] 0.0261423472012 0.671209763613 0.569929333776 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['enjoy', 'lol', 'museum', 'night', 'tonit'] 0.0323319140806 0.328261163283 0.573198592355 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['dad', 'good', 'googl', 'mention', 'mustang', 'place', 'work'] 0.0937845786569 0.0956881243324 0.468250266692 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['anymor', 'googl', 'profil', 'search', 'show', 'stop'] 0.519871160363 0.173009838334 0.370959267687 [1, 0, 0] [0, 1, 0] False
+
+
+False
+
+
+['awesom', 'regret', 'star', 'trek'] 0.108459501008 0.0740181368525 0.584317560691 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['barack', 'funni', 'great', 'obama', 'show', 'side', 'speech'] 0.00782786547733 0.0392312865889 0.968382874889 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['boy', 'famili', 'fuin', 'movi', 'museum', 'night', 'year'] 0.0480810707524 0.98363556702 0.260524718095 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['ethic', 'nonprofit', 'socialentrepreneurship', 'stanford'] 0.0889609459249 0.142271292634 0.197581132888 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['ad', 'bloomingdal', 'feel', 'kindl', 'love', 'natur', 'read', 'time', 'york'] 0.00404085446682 0.0454957329753 0.97753158518 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['closer', 'dame', 'dan', 'enjoy', 'good', 'notr', 'school'] 0.094816602017 0.048701855433 0.713454601289 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['great', 'laker', 'night', 'play', 'thursday', 'wait'] 0.0134764153529 0.355681981856 0.98617024627 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['cabl', 'day', 'long', 'slogan', 'time', 'warner'] 0.942307023774 0.0101960697429 0.0134938127918 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['creat', 'dame', 'higher', 'ncaa', 'notr', 'rate', 'receiv', 'school', 'sweet'] 0.211651479729 0.562244462825 0.0215975682824 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['enhanc', 'geeki', 'histori', 'hitler', 'life', 'programm', 'watch'] 0.296339912437 0.361383347028 0.271672805414 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['enjoy', 'goodbi', 'site'] 0.0561800874566 0.194371573569 0.804327578983 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['causin', 'internet', 'piss', 'problem', 'slow', 'time', 'warner'] 0.999051454563 0.212507266293 0.000361813674621 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['awesom', 'night', 'pretti', 'speech'] 0.357647345038 0.0255068405718 0.742617910496 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['amp', 'cabl', 'comcast', 'hate', 'internet', 'phone', 'ughh'] 0.999632063431 0.00144651052648 0.000427453189048 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['amp', 'fuck'] 0.939062989709 0.0335158346858 0.0528522486054 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['recov', 'surgeri', 'wish'] 0.262738558169 0.23565344903 0.350419287689 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['compon', 'devsnippet', 'javascript', 'jqueri', 'tool', 'web'] 0.207073601807 0.546130790635 0.0398489593775 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['amount', 'bitten', 'grr', 'insect', 'stupid', 'time', 'ugh'] 0.395116606013 0.236488060826 0.0163423278185 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['amp', 'mhz', 'thought', 'wcdma'] 0.871450585577 0.545137280683 0.154507008543 [1, 0, 0] [0, 1, 0] False
+
+
+False
+
+
+['absolut', 'hilari'] 0.355458372995 0.337932363846 0.325101558739 [1, 0, 0] [0, 0, 1] False
+
+
+False
+
+
+['bout', 'eat', 'gotta', 'hit', 'safeway'] 0.00739579580919 0.995429317969 0.0393141962697 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['bedroom', 'lovin', 'nike', 'run', 'spot'] 0.327298449731 0.125078618795 0.59517130325 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['good', 'museum', 'night', 'watch'] 0.0360264022325 0.0449787806345 0.881463984928 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['cold', 'offic'] 0.0796622119842 0.580028919244 0.0634024228954 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['line', 'loooong', 'time', 'ugh', 'warner', 'wth'] 0.901488169636 0.46261997455 0.00136709827069 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['good', 'kobe', 'lebron', 'vote'] 0.163968944807 0.0143966688677 0.447816991287 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['ajax', 'imgsearch', 'jqueri', 'launch', 'webapp'] 0.11884627665 0.966340259638 0.0880252693571 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['api', 'remot', 'test', 'twitter', 'updat'] 0.186162333771 0.206071100503 0.391686770222 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['aig', 'real', 'scandal'] 0.833105763614 0.0892499897956 0.140186244058 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['acg', 'blazer', 'brad', 'custom', 'dougla', 'high', 'nike'] 0.208408591934 0.340788891985 0.803593121098 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['awesom'] 0.363267902465 0.0475829780983 0.482341990013 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['good', 'googl', 'option', 'search', 'video'] 0.204305810518 0.00783404378207 0.677618052937 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['cbs', 'cheney', 'colin', 'countri', 'hell', 'home', 'honor', 'man', 'powel', 'proud', 'rock', 'serv', 'shut', 'yesterday'] 0.990227653325 0.010105392707 0.374436218067 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['alpha', 'googl', 'love', 'quaint', 'search', 'site', 'wolfram'] 0.0869797279347 0.0237663064527 0.948394039257 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['accid', 'coordin', 'gps', 'instant', 'locat', 'obsess', 'onstar', 'send'] 0.559042421265 0.110947866697 0.038550138447 [1, 0, 0] [0, 1, 0] False
+
+
+False
+
+
+['bonjour', 'francisco', 'hurt', 'night', 'san'] 0.0755091941343 0.850801176392 0.208806110306 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['book', 'kindl', 'loo', 'love', 'stack', 'trip'] 0.00721131841273 0.0237621358574 0.967136673206 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['hill', 'mtv', 'pick', 'time', 'warner', 'watch', 'work', 'worst', 'wtfffff'] 0.839633033694 0.00901537469044 0.0290375188315 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['amaz', 'amp', 'effect', 'goodbi', 'partner', 'play', 'psyop', 'silverstein'] 0.400845921075 0.869507773337 0.0263198447088 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['great', 'help', 'inform', 'make', 'public', 'stanford', 'start'] 0.0385351419924 0.180384959798 0.160181393627 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['dentist', 'expens', 'great'] 0.498503144121 0.100232975164 0.11836789598 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['app', 'apr', 'twitter'] 0.0252744768799 0.335524125836 0.259446533528 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['afternoon', 'arriv', 'await', 'guy', 'impati', 'pretti', 'time', 'warner'] 0.964400223256 0.0824145520914 0.0099302606829 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['chariti', 'draw', 'fashion', 'show', 'stanford', 'top'] 0.0187534480926 0.774629777654 0.364758897996 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['check', 'cnn', 'comedian', 'dinner', 'funni', 'good', 'joke', 'obama', 'speech'] 0.00242521434814 0.201475737257 0.971790454189 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['agenc', 'goodbi', 'great', 'silverstein', 'site'] 0.0357789937814 0.401075381711 0.225006480896 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['beast', 'cheer', 'lebron', 'til'] 0.014557728459 0.0131014167717 0.866722743127 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['annoy', 'bring', 'cunt', 'gladwel', 'hey', 'malcolm', 'offens', 'preteni', 'read', 'shit'] 0.291313415666 0.00818677374045 0.474137222613 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['alot', 'good', 'greater', 'kobe', 'lebron', 'nba', 'player'] 0.066474070979 0.00659489424261 0.5464072261 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['china', 'guitar', 'hous', 'piano', 'weird'] 0.204274029643 0.75290642855 0.10330981015 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['awesom', 'book', 'coda', 'jqueri', 'refer', 'webdesign'] 0.017638292031 0.498647153449 0.430498289474 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['flockofseagullsweregeopoliticallycorrect', 'hmm', 'iran', 'troubl'] 0.0564053843385 0.381857164373 0.0569569758677 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['amp', 'barbara', 'correspond', 'dinner', 'hous', 'night', 'obama', 'ovat', 'sherri', 'stand', 'whoopi'] 0.150107228064 0.769030798977 0.693594543488 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['canon', 'chose', 'current', 'featur', 'love', 'mistak', 'nikon', 'video'] 0.0790069964445 0.041037951633 0.771743828571 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['basketbal', 'classic', 'dame', 'featur', 'high', 'host', 'notr', 'play', 'school', 'star', 'talent', 'top', 'tuesday'] 0.00142860943179 0.729719626147 0.0241975928751 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['canon', 'love', 'toy'] 0.040275489005 0.175024139831 0.909880567534 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+('true', 58)
+('false', 41)
+29
+396.693043865
+186.265048708
+130.182910931
+97.6934856835
+76.9631987472
+64.2219621278
+54.451035152
+46.0494136376
+39.260419378
+34.24543577
+30.2315049558
+27.060711986
+24.3422888321
+21.9700483297
+20.0633615413
+18.494749803
+17.1690042796
+16.0333668269
+15.0492002014
+14.1903865478
+13.4380663178
+12.7766750579
+12.1922932612
+11.6726821408
+11.2076093701
+10.7887828992
+10.4095213653
+10.0643968008
+9.74894341184
+['barri', 'china', 'class', 'high', 'myfoxdc', 'silver', 'spring', 'student', 'trip'] 0.313064407083 0.676752119699 0.199008562523 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['aig', 'happi', 'lehman', 'notic', 'situat'] 0.213312700134 0.050819512988 0.192000649829 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['joke', 'love', 'obama'] 0.0851186880766 0.00809837374961 0.963080747919 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['jqueri', 'list', 'ultim'] 0.0194039515565 0.874304726042 0.0398478050328 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['angri', 'billion', 'bullshit', 'employe', 'hear', 'wast'] 0.409646262297 0.67521672399 0.462183361509 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['express', 'extract', 'highlight', 'jqueri', 'open', 'plugin', 'regular', 'sourc', 'stormweight', 'text'] 0.00270865737416 0.988212968396 0.0848296541963 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['fav', 'nike', 'word', 'work'] 0.0208268074558 0.398433045503 0.37039395985 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['lot', 'mcdonald'] 0.126726274853 0.140379931719 0.826612598239 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['eread', 'kindl', 'work'] 0.0417178922667 0.165641690857 0.822738284445 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['amp', 'fast', 'safari', 'shitti', 'tether'] 0.777528957305 0.445136209485 0.0295579069575 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['adida', 'commerci', 'dwight', 'lol', 'love', 'nike', 'vitamin', 'water'] 0.070250323911 0.563302552986 0.745003991991 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['eat', 'movi', 'watch'] 0.00721755024205 0.97978348587 0.0909401713751 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['bobbi', 'burger', 'flay', 'great', 'readi', 'receip', 'test', 'weekend'] 0.0396033301875 0.165446682107 0.930523648692 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['american', 'amp', 'bobbi', 'excit', 'fest', 'fieri', 'flay', 'food', 'great', 'guy', 'music', 'tomorrow'] 0.188874267654 0.000490266171554 0.987243607292 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['bobbi', 'flay', 'join'] 0.0369607395948 0.651210519523 0.737498762856 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['everyday', 'kindl', 'love', 'person', 'pictur'] 0.00693910241127 0.0193073122459 0.977987055608 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['ass', 'bathroom', 'safeway', 'smell'] 0.05686703445 0.946905595927 0.0808445138944 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['china', 'pelosi', 'stay'] 0.411395384955 0.570374423143 0.0192216096565 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['api', 'curl', 'play', 'twitter'] 0.259741107651 0.939256601657 0.0633070721508 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['app', 'bird', 'data', 'engin', 'give', 'interfac', 'logo', 'strike', 'test', 'weka'] 0.0595226367745 0.771826204226 0.128096925427 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['anim', 'bio', 'collaps', 'final', 'jqueri', 'slide', 'yay'] 0.505425677684 0.157843177936 0.185381935812 [1, 0, 0] [0, 0, 1] False
+
+
+False
+
+
+['android', 'free', 'googl'] 0.289285096831 0.246713343309 0.578269948488 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['articl', 'gladwel', 'great', 'malcolm'] 0.0563602148911 0.00529298107332 0.877489377987 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['bought', 'buy', 'car', 'drove', 'govern', 'motor', 'vehicl'] 0.139641561961 0.949172188429 0.00414344723536 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['die', 'fan', 'guy', 'hard', 'hate', 'jame', 'lebron', 'night', 'spur', 'talk', 'tell', 'told'] 0.980958237841 0.000127519852451 0.106099901167 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['dum', 'give', 'gum', 'museum', 'night', 'readi', 'watch'] 0.61862807444 0.619466974853 0.104387565968 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['danni', 'dissapoint', 'gokey', 'hero', 'home', 'hometown', 'milrocke', 'rock', 'sooo', 'yeah'] 0.115671706106 0.014972681684 0.561424682988 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['buffer', 'feel', 'free', 'fricken', 'game', 'hate', 'internet', 'met', 'porn', 'soooo', 'time', 'vio', 'warner', 'watch'] 0.999105032589 0.00138812773716 0.0335132668301 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['lmao', 'museum', 'night', 'watch'] 0.0682506521437 0.497665615647 0.631316338849 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['eat', 'sashimi'] 0.052885566401 0.859354402985 0.0262651884925 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['night', 'sleep', 'tire'] 0.472394271404 0.0688532009072 0.389155570392 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['movi', 'night', 'satisfi', 'star', 'trek'] 0.0579050232701 0.723588739906 0.30171983356 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['amaz', 'aww', 'danni', 'gokey', 'listen'] 0.860592625997 0.0662172685341 0.402733411253 [1, 0, 0] [0, 0, 1] False
+
+
+False
+
+
+['devil', 'internet', 'time', 'warner', 'worst'] 0.996586514832 0.0210866407532 0.000264097759351 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['chicken', 'lunch', 'mcdonald', 'nuggetssss', 'stop', 'yummmmmi'] 0.341327388307 0.220685083992 0.55841004503 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['layoff', 'nike', 'start', 'today', 'told'] 0.101133132739 0.706026277401 0.43192188215 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['basebal', 'leagu', 'major', 'play', 'start'] 0.058174158196 0.674344397203 0.450226428473 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['cabl', 'dumber', 'min', 'nail', 'phone', 'rep', 'time', 'ugh', 'warner', 'work', 'wtf'] 0.981206064189 0.00455982599903 0.00656158334982 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['good', 'riddanc', 'sad'] 0.225603004196 0.0141828429551 0.877968225665 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['api', 'chart', 'cold', 'jqueri', 'visual', 'wrapper'] 0.830149291762 0.130031390301 0.00572654465561 [1, 0, 0] [0, 1, 0] False
+
+
+False
+
+
+['editor', 'latex', 'linux', 'love', 'nicer', 'window', 'wysiwyg'] 0.193192219139 0.0657889543765 0.831843160554 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['laker', 'tonight'] 0.0817147022412 0.0434929434209 0.93084564611 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['boy', 'museum', 'night', 'tall'] 0.0822572907151 0.500117539151 0.0788835256178 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['zomg'] 0.175805553102 0.403165032896 0.110963873649 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['calculus', 'explain', 'lambda'] 0.160833604408 0.0266821909342 0.614529199797 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['disrupt', 'fred', 'googl', 'share', 'slide', 'talk'] 0.339396335287 0.0485403343131 0.0514196057482 [1, 0, 0] [0, 1, 0] False
+
+
+False
+
+
+['dear', 'flywir', 'love', 'nike', 'scienc', 'shit', 'stop', 'ugli', 'wast'] 0.409330797113 0.0300071980237 0.930878983076 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['close', 'column', 'fill', 'guy', 'impress', 'insight', 'kindl', 'miss', 'smart'] 0.427485718548 0.058468476464 0.90380489563 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['brand', 'camera', 'canon', 'dslr', 'eo', 'len', 'technolog', 'thread', 'web'] 0.111870273604 0.614030183279 0.400266199076 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['biolog', 'human', 'love', 'nerdi', 'school', 'stanford', 'video'] 0.0237656095702 0.641520793167 0.976338688328 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['blip', 'busi', 'check', 'entri', 'good', 'googl', 'huh', 'show'] 0.00313762437212 0.206198164421 0.675258570863 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['bay', 'classif', 'frustrat', 'naiv', 'text'] 0.174453824319 0.657777369287 0.152815048875 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['aig', 'shaunwoo'] 0.798580498535 0.176197980216 0.0265069502352 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['insect', 'katydid', 'pink', 'prettiest'] 0.318824999841 0.110244755365 0.162809959656 [1, 0, 0] [0, 0, 1] False
+
+
+False
+
+
+['blog', 'eat', 'fit', 'healthi', 'resultsbi', 'tip'] 0.132641733865 0.956521831738 0.00578935351994 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['amp', 'complet', 'fail'] 0.895879692693 0.0128630182994 0.246382061398 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['code', 'implement', 'jqueri', 'line', 'news', 'ten', 'ticker'] 0.197680515984 0.419550649016 0.00810412052035 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['aig', 'bay', 'chrysler', 'debt', 'exec', 'guantanamo', 'holder', 'militari', 'plan', 'resum', 'time', 'trial', 'tribun'] 0.286511855986 0.0667045673677 0.000222960725751 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['dvr', 'suck', 'time', 'tivo', 'warner', 'watch', 'year'] 0.893491189272 0.0452834162642 0.0123996118582 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['bill', 'chief', 'dalli', 'name', 'nvidia', 'research', 'scientist'] 0.12582066731 0.113207136665 0.176403855417 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['america', 'basebal', 'baseballamerica', 'blog', 'prospect'] 0.112626243739 0.808804929641 0.0179403452091 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['dentist', 'exam', 'math', 'stude', 'tomorrow'] 0.988274674469 0.0530994810491 0.0257299738747 [1, 0, 0] [0, 0, 1] False
+
+
+False
+
+
+['love', 'twitter'] 0.0487391063122 0.289354318491 0.505205895984 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['bill', 'convers', 'gladwel', 'malcolm', 'simmon'] 0.0104048208355 0.0243173586866 0.891724682458 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['bring', 'browser', 'funfun', 'googleio', 'graphic', 'nice', 'tbh'] 0.723979350716 0.198696497099 0.730440076237 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['appt', 'convers', 'dentist', 'morn'] 0.437540175746 0.656377332616 0.303196287992 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['brush', 'cut', 'dentist', 'hair', 'morn', 'nice', 'tomorrow'] 0.829992103412 0.885176190945 0.193974166527 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['day', 'good', 'googl', 'love', 'mate', 'translat'] 0.218302016537 0.00109258493823 0.952846702821 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['iran', 'media', 'social', 'track'] 0.781913857035 0.198613955173 0.120890801211 [1, 0, 0] [0, 1, 0] False
+
+
+False
+
+
+['bum', 'nightmar', 'place', 'safeway'] 0.0596085458061 0.739433176929 0.136163349777 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['alto', 'buildin', 'cal', 'cracka', 'doom', 'east', 'gta', 'hempz', 'karizmakaz', 'out', 'palo', 'profit', 'shout', 'univers'] 0.000673990403111 0.00504962916438 0.632301242978 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['amp', 'author', 'includ', 'rock', 'top', 'twitter', 'wave'] 0.0156530845034 0.359470974208 0.0616424957167 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['appt', 'dentist', 'enjoy', 'today'] 0.735458650611 0.0650501638822 0.0823934360288 [1, 0, 0] [0, 0, 1] False
+
+
+False
+
+
+['disast', 'great', 'happi', 'implod', 'iran', 'kitchen', 'monday', 'nice', 'weekend', 'whoop'] 0.591300630978 0.0019988963672 0.766221207102 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['ala', 'board', 'coca', 'cola', 'guy', 'heck', 'stupid', 'tcot'] 0.896611855726 0.00441226839382 0.694099936147 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['banana', 'factori', 'nike', 'outlet', 'republ'] 0.0500170187021 0.327968129184 0.942156628169 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['custom', 'servic', 'time', 'warner', 'wors'] 0.705721949649 0.0886341557604 0.0132124207927 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['android', 'confer', 'dood', 'free', 'googl', 'phone'] 0.279858013478 0.171771026923 0.585002949817 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['awesom', 'continu', 'idea', 'kindl', 'learn', 'program'] 0.00467550879357 0.00666025071303 0.982639191906 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['love', 'model', 'ooooh'] 0.0873635688826 0.0265781572022 0.844553558549 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['book', 'jqueri', 'review'] 0.0166383787413 0.936530042298 0.0573505676547 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['dont', 'hate', 'itchi'] 0.987011268937 0.0275114327637 0.022999901587 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['advic', 'singapor', 'stanford', 'talk', 'video'] 0.0358309989628 0.819834490129 0.204867671118 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['build', 'china', 'head', 'rocawear', 'store'] 0.121259865368 0.914988613718 0.0181815501202 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['buffet', 'great', 'long', 'plant', 'shade', 'sit', 'time', 'today', 'tree', 'warren'] 0.0703122927065 0.0374878013558 0.812259908229 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['bye', 'delet', 'fix', 'point', 'search', 'summiz', 'tweet', 'twitter', 'wtf'] 0.974486550085 0.133103239339 0.00365285199825 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['korea', 'north', 'oooooooh', 'troubleeee'] 0.716738339507 0.10267324459 0.0584278730138 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['bing', 'cheap', 'googl', 'stick', 'talk'] 0.00497665350115 0.624989848113 0.0337847710157 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['amp', 'announc', 'bit', 'great', 'keynot', 'rock', 'shit'] 0.146948407336 0.00303207448018 0.376308270822 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['boyfriend', 'eat', 'quesadilla'] 0.22641609828 0.891379053463 0.0648878909743 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['cast', 'jenna', 'member', 'museum', 'night', 'offic', 'surpris', 'today'] 0.488917319199 0.175399190347 0.93197175915 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['bobbi', 'date', 'fieri', 'flay', 'food', 'gut', 'network'] 0.00448614941429 0.254773432975 0.97273374577 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['chip', 'dinner', 'eat', 'meat', 'risotto'] 0.0343085971169 0.802402377484 0.0239516193087 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['class', 'suppos', 'today'] 0.217660769403 0.0959259057227 0.695645188081 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['call', 'fine', 'good', 'news', 'offic', 'relief', 'scam', 'sick', 'steal', 'visa'] 0.250722793499 0.0510475111025 0.756630565121 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['boyl', 'cabl', 'didnt', 'explod', 'fuck', 'modem', 'suck', 'susan', 'time', 'warner'] 0.999831656938 0.0027404007314 0.000470118870809 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['danni', 'gokey', 'love'] 0.0359794259435 0.0339357274209 0.980684287088 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['exam', 'happi', 'left'] 0.33388256675 0.0314562247669 0.796003717257 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['desper', 'fund', 'movi', 'museum', 'night', 'sheer'] 0.0280795908315 0.886137205609 0.165498834657 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['amp', 'campaign', 'chart', 'kennedi', 'love', 'mostvaluablepuppet', 'nike', 'ten', 'top', 'video', 'viral', 'watch', 'wieden'] 0.0200204064813 0.00685003870534 0.913692272336 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+('true', 65)
+('false', 35)
+29
+408.116240206
+178.823695405
+126.345976633
+97.3957966753
+80.0243353903
+68.0522864752
+58.1466876172
+50.7804327454
+44.770651612
+39.5718514023
+35.1661618332
+31.6322420945
+28.8928039238
+26.6132847083
+24.6838932356
+23.0280912831
+21.596142257
+20.3568635205
+19.2891290204
+18.3704386828
+17.5753374861
+16.880222104
+16.2656603824
+15.716024973
+15.218294458
+14.7607398689
+14.3315409321
+13.9174645828
+13.5043068616
+13.0854624604
+12.6817198352
+12.3314442772
+12.0391768919
+11.7855380359
+11.5575470413
+11.3490165837
+11.156496972
+10.977676621
+10.8108228227
+10.6545508869
+10.5077091457
+10.3693116741
+10.2384931059
+10.1144739326
+9.99652949049
+['api', 'java', 'play', 'twitter'] 0.0131587780883 0.944902175466 0.0354094403959 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['ceo', 'fee', 'hint', 'magazin', 'mountain', 'onlin', 'read', 'state', 'time', 'unit', 'view', 'warner'] 0.996587532797 0.0387523303401 0.0111597270476 [1, 0, 0] [0, 1, 0] False
+
+
+False
+
+
+['awesom', 'funni', 'market', 'peopl', 'viral'] 0.0158937775135 0.133615079462 0.413065611114 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['alto', 'avoid', 'east', 'guess', 'live', 'palo', 'summer', 'yeahhhhhhhhh'] 0.0495072132689 0.59164084834 0.701691868346 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['api', 'broken', 'connect', 'tweet', 'twitter'] 0.236425423536 0.563452345266 0.0271864763698 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['book', 'gladwel', 'love', 'malcolm', 'outlier'] 0.0296785758209 0.00567242592901 0.986004809439 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['exam', 'good', 'prayer', 'work'] 0.461444437797 0.00783907421339 0.679800894369 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['cabl', 'experi', 'girlfriend', 'plug', 'pull', 'time', 'tinyurl', 'warner'] 0.971389245872 0.00346628502915 0.20146598975 [1, 0, 0] [0, 1, 0] False
+
+
+False
+
+
+['friend', 'jqueri'] 0.0581826762313 0.925825309045 0.169411429349 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['epic', 'fail', 'time', 'warner'] 0.986272433466 0.00295612556745 0.00913386510372 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['begin', 'css', 'develop', 'javascript', 'jqueri'] 0.0194180407081 0.991517238497 0.0559370127538 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['argghhhh', 'bad', 'jqueri', 'safari'] 0.0559965857284 0.893993858625 0.0458593359406 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['amp', 'long', 'montreal', 'need', 'weekend'] 0.423291141207 0.0152884320231 0.0859272607681 [1, 0, 0] [0, 0, 1] False
+
+
+False
+
+
+['atebit', 'class', 'finish', 'iphon', 'rock', 'session', 'stanford', 'watch'] 0.00305454626668 0.037885869723 0.982455133127 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['lebron', 'love'] 0.0536828800987 0.00325164420985 0.987202188717 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['arhh', 'bug', 'crappi', 'find', 'hour', 'spent', 'weka'] 0.0538105434473 0.0826941283756 0.120882894052 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['problem', 'time', 'ummm', 'warner'] 0.930619874251 0.00615401828406 0.0083017282343 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['canon', 'filter', 'good', 'pls', 'suggest'] 0.0297881621452 0.0771017539937 0.957856503504 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['annoy', 'api', 'hate', 'soooo', 'srsli', 'stupid', 'timeout', 'twitter'] 0.99373052532 0.349257631148 0.00309432227707 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['good', 'star', 'trek'] 0.20199718723 0.0592004753141 0.59440721435 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['bobbi', 'drink', 'eat', 'flay', 'gonna', 'good', 'moro', 'shorelin'] 0.00293893543263 0.928469257301 0.35618971551 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['book', 'day', 'delirium', 'drink', 'jqueri', 'read', 'spent', 'start', 'tremen'] 0.215427499067 0.654499954142 0.267557475628 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['furkin', 'good', 'museum', 'night', 'pretti'] 0.0299187717533 0.0288579826449 0.865954524306 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['ass', 'kick', 'laker', 'nugget', 'tonight'] 0.161463549946 0.00855144755856 0.955505989191 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['check', 'david', 'dentist', 'video'] 0.507021154916 0.734270519398 0.0549051313476 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['add', 'case', 'list', 'market', 'peopl', 'studi', 'viral'] 0.202010201331 0.63135893307 0.00604328422097 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['drop', 'jqueri', 'ladi', 'love', 'marri', 'nerd', 'pretens', 'readi', 'spokenfor'] 0.00167690284637 0.647087627966 0.890110910639 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['bummer', 'cabl', 'day', 'memori', 'time', 'warner'] 0.986027113197 0.0143502910404 0.00259253156371 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['car', 'compar', 'honda', 'junk', 'qualiti'] 0.234815794043 0.341575452946 0.0233832494903 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['dentist', 'eagl', 'eye', 'hate', 'hurt', 'join', 'look', 'place', 'scari', 'time', 'txt', 'watch', 'wrist'] 0.9986934922 0.000253264874124 0.000322971622704 [1, 0, 0] [0, 0, 1] False
+
+
+False
+
+
+['good', 'movi', 'museum', 'night', 'rachel'] 0.0151979688985 0.415381344735 0.439572586569 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['chat', 'firesid', 'gwt'] 0.0775628212428 0.422540853971 0.12761729775 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['damn', 'good', 'highlight', 'lebron', 'nigga', 'watch'] 0.0348887916617 0.00259914545699 0.997216561122 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['cheat', 'jqueri', 'sheet'] 0.0164488383135 0.908187464949 0.0662431400774 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['confer', 'free', 'googl', 'month', 'servic', 'unlimit', 'wow'] 0.123854059202 0.533871673234 0.830980339655 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['accost', 'feder', 'french', 'man', 'open', 'roger'] 0.0690236682997 0.287949394233 0.46273874847 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['hate', 'kill', 'latex', 'note', 'page', 'rds', 'texn', 'word'] 0.752131679396 0.0381144950242 0.0352181835882 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['nation', 'obama', 'short', 'term'] 0.0499879446183 0.160512868061 0.784488125059 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['bitter', 'commenc', 'gave', 'heard', 'nanci', 'pelosi', 'speech', 'worst'] 0.974371388965 0.0397118939947 0.348002255092 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['big', 'happi', 'kindl'] 0.027565302446 0.0744755157571 0.952969585974 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['amp', 'damn', 'glad', 'phone', 'yay'] 0.648859600941 0.00239908641818 0.140505093544 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['life', 'screw', 'upset'] 0.484153628554 0.0532815713322 0.132049643572 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['love', 'museum', 'night'] 0.0992803328786 0.0737235669975 0.791519336392 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['bag', 'call', 'car', 'chang', 'fix', 'harass', 'number', 'warranti'] 0.0724067606601 0.747268285625 0.0414070435424 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['love', 'museum', 'night'] 0.0992803328786 0.0737235669975 0.791519336392 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['give', 'program', 'support', 'unemploy'] 0.142794089313 0.75265345145 0.0975274370317 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['buzz', 'free', 'lot', 'lucki'] 0.029700447654 0.113535028727 0.94745831275 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['conduct', 'follow', 'heck', 'korea', 'north', 'nuclear', 'power', 'test', 'wat'] 0.860243052717 0.00494800165034 0.00560498010598 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['ach', 'sleep', 'tooth'] 0.362204762779 0.113783758636 0.10495978503 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['facebook', 'offici', 'page', 'popular', 'profil', 'stanford', 'univers'] 0.0038220618567 0.0510846962653 0.267139616711 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['admiss', 'deadlin', 'essay', 'gsb', 'mba', 'stanford', 'tip', 'topic'] 0.335312429333 0.37114198322 0.239176982826 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['day', 'elect', 'general', 'great', 'indian', 'result', 'tamasha', 'unfold'] 0.105419095856 0.00154852095267 0.728278124351 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['barrag', 'hord', 'hungri', 'insect', 'kitchen', 'light', 'scari'] 0.730101130237 0.0413350602704 0.00857530743 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['boss', 'lebron'] 0.269335706798 0.1262196218 0.810447754762 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['jqueri', 'selector'] 0.0214264736489 0.960851088499 0.10402055615 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['amazon', 'amp', 'contact', 'experi', 'great', 'kindl', 'support', 'warranti'] 0.0120546138365 0.0340570202437 0.649991897922 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['kindl', 'read'] 0.07793004943 0.115246351078 0.639942540306 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['bit', 'crazi', 'curv', 'doc', 'good', 'insan', 'learn', 'long', 'lyx', 'shorter', 'steep'] 0.386473603831 0.000282886786632 0.993640534492 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['car', 'forc', 'hous', 'sell', 'shame', 'think', 'white'] 0.0116306765478 0.998368236803 0.00545468993784 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['cute', 'museum', 'night', 'stinkin', 'watch'] 0.07774509098 0.125923403546 0.302091067219 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['function', 'iphon', 'itun', 'nike', 'radio', 'releas', 'suggest', 'tag', 'version', 'voiceov'] 0.317828156198 0.868774309195 0.328277809089 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['amp', 'divis', 'european', 'grate', 'nike', 'rock', 'super'] 0.203473289065 0.0111459806971 0.757392987199 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['calcio', 'indesign', 'latex', 'program', 'submit'] 0.515441801655 0.0345248254277 0.0146842579032 [1, 0, 0] [0, 1, 0] False
+
+
+False
+
+
+['call', 'nike', 'time'] 0.324871536605 0.118980243019 0.276683047806 [1, 0, 0] [0, 1, 0] False
+
+
+False
+
+
+['access', 'api', 'dave', 'lack', 'limit', 'scream', 'throttl', 'twitter', 'winer'] 0.133270974738 0.766462967457 0.00541421939529 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['amp', 'dont', 'phone', 'servic', 'signal', 'suck'] 0.982233746305 0.00661034848507 0.00554852137376 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['hideous', 'latex', 'lot', 'mathemat', 'typeset'] 0.159331195804 0.0652571967764 0.112850760491 [1, 0, 0] [0, 0, 1] False
+
+
+False
+
+
+['furious', 'phone', 'promot', 'time', 'warner'] 0.977859578605 0.00203497878332 0.00246610989565 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['day', 'good', 'lost', 'met', 'won', 'yanke'] 0.262348218064 0.00867347884075 0.715267642629 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['factori', 'nike'] 0.48560386232 0.233912071336 0.36680353025 [1, 0, 0] [0, 0, 1] False
+
+
+False
+
+
+['kindl', 'love'] 0.0132776236233 0.0157076629949 0.982839949557 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['complain', 'crash', 'hour', 'inkscap', 'latex', 'rock', 'slightest', 'solid'] 0.0608368730512 0.0555253295897 0.679928696613 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['boo', 'die', 'hahaha', 'worth'] 0.507463198428 0.0413051613468 0.272546750675 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['ajax', 'css', 'exampl', 'javascript', 'jqueri'] 0.0139400085374 0.974026627512 0.0189013155607 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['googleio', 'happi', 'philip', 'today'] 0.0123068063215 0.0242485833474 0.854743572819 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['block', 'blood', 'call', 'car', 'googl', 'guy', 'servic', 'unit', 'voic', 'warranti'] 0.0827177840664 0.465010205162 0.570795701248 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['bud', 'hey', 'love', 'mkii'] 0.0716763069834 0.0454660734458 0.857782807971 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['biden', 'monkey', 'obama', 'palin', 'pelosi', 'realiz', 'sarah', 'white'] 0.464321435474 0.048939143592 0.0620966456022 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['book', 'jqueri', 'learn', 'worth'] 0.00140951634408 0.699142619109 0.716048784999 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['damn', 'itchi', 'lawnmow', 'lol', 'skin'] 0.960860871887 0.142830497378 0.257743003768 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['cav', 'hero', 'hometown', 'laker', 'lebron', 'lol', 'love'] 0.0165971532721 0.000454513316459 0.99947129972 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['api', 'good', 'slow', 'twitter'] 0.027303001379 0.479949617373 0.424622548854 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['crush', 'gladwel', 'malcolm', 'man'] 0.164875384506 0.0155868378643 0.52889846817 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['amazon', 'amp', 'book', 'day', 'electron', 'free', 'kindl', 'period', 'reader', 'ship', 'top'] 0.230358538983 0.178469404039 0.904187513125 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['aapl', 'buzz', 'palm', 'spi', 'spx', 'stock', 'twitter', 'updat'] 0.0576427096962 0.388782659031 0.290144324514 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['damn', 'lol', 'mcdonald', 'ohhde', 'omgg', 'open'] 0.104238877813 0.0287171839942 0.881246716438 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['blech', 'board', 'flight', 'francisco', 'hour', 'plane', 'san'] 0.0277057923334 0.743766943322 0.000904417654384 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['bed', 'stanford', 'success', 'weekend'] 0.0518617254996 0.342658040272 0.370389950137 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['summiz', 'tweet', 'wwdc'] 0.456950059622 0.046051533797 0.159603677595 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['cabl', 'consequ', 'put', 'rape', 'repeat', 'rhino', 'run', 'shitti', 'svcs', 'time', 'understand', 'warner'] 0.993385772619 0.00698703528823 0.0300648587719 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['nice', 'record', 'time', 'today', 'warner'] 0.983001551381 0.0477195943333 0.0490337359426 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['blog', 'eat', 'normal', 'weight'] 0.0383826967126 0.992744466374 0.00231095112668 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['book', 'jqueri', 'learn', 'review'] 0.00497817198145 0.90196859673 0.257525115646 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['advanc', 'basebal', 'cardin', 'face', 'friday', 'fullerton', 'region', 'super'] 0.0165114475312 0.781670312483 0.163878082431 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['bit', 'dinner', 'haha', 'joke', 'love', 'night', 'presid', 'speech', 'watch'] 0.0167069907644 0.000966132025153 0.982373082734 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['lebron', 'murder', 'shit'] 0.451871280775 0.109672888777 0.237203366333 [1, 0, 0] [0, 0, 1] False
+
+
+False
+
+
+['big', 'dinner', 'goooood', 'mac', 'mcdonald', 'meal'] 0.0400783395745 0.441620697455 0.358778844515 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['dick', 'dishonest', 'fred', 'kaplan', 'obama', 'slate', 'speech', 'terror', 'tortur'] 0.116971705801 0.0406755281801 0.418651437151 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['amp', 'snap', 'work'] 0.653495679081 0.0966443105785 0.053233026427 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+('true', 68)
+('false', 31)
+45
+409.412892859
+187.32611318
+123.713323911
+93.1993362966
+73.5821128951
+60.1870089113
+50.6893214798
+43.5908715312
+38.0345658764
+33.7605650399
+30.3358112942
+27.479308017
+25.0201615388
+22.8707003794
+21.0094318832
+19.4189406692
+18.0564134726
+16.868448282
+15.8326526461
+14.9368469814
+14.1593925211
+13.4788023007
+12.8769595295
+12.3387960682
+11.8516907416
+11.4048854484
+10.9889970976
+10.5957895883
+10.2184748705
+9.85278782086
+['final', 'lebron', 'melo', 'playoff', 'yea', 'year'] 0.040380692658 0.304233228448 0.347922999461 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['amp', 'cell', 'iphon', 'obsess', 'phone', 'slave'] 0.859943277913 0.0698191292049 0.0886939010674 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['api', 'arg', 'crazi', 'make', 'twitter'] 0.2204142137 0.632227697643 0.0326646104114 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['appli', 'safeway', 'yeeeee'] 0.131604136408 0.915753578386 0.0239414925717 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['card', 'debit', 'electron', 'primari', 'visa'] 0.157378862674 0.801011823552 0.0961527397288 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['braindead', 'save', 'soul', 'warren'] 0.0291363578455 0.278000266074 0.263349757709 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['dentist'] 0.386154789098 0.201690619666 0.176589710809 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['giggl', 'museum', 'night', 'watch'] 0.111357819282 0.606766697279 0.470487520413 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['cool', 'fantast', 'kindl', 'loooooooovvvvvvee'] 0.026809131972 0.0233099359601 0.926614151019 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['exam', 'fail', 'math', 'review'] 0.281591138398 0.0273756205134 0.610031823114 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['alto', 'east', 'move', 'palo'] 0.664509309202 0.459972522522 0.233538768726 [1, 0, 0] [0, 0, 1] False
+
+
+False
+
+
+['day', 'govt', 'hurrican', 'sad', 'scarey', 'season'] 0.890527357449 0.0644970474535 0.00384807491414 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['cheney', 'side'] 0.54515242151 0.289441585344 0.208048626937 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['bipart', 'bitch', 'cheney', 'dick', 'dnc', 'gop', 'hhrs', 'life', 'tcot', 'tlot'] 0.866275491602 0.392510165409 0.640285811343 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['announc', 'expect', 'hummer', 'reuter', 'sale', 'wdsugm'] 0.408461885553 0.289360442738 0.298645048322 [1, 0, 0] [0, 1, 0] False
+
+
+False
+
+
+['hack', 'jqueri', 'php'] 0.0391713514667 0.864953567663 0.0748861989823 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['acia', 'arrrgh', 'brand', 'day', 'fail', 'hack', 'market', 'msgs', 'oughta', 'pill', 'shut', 'viral'] 0.771289527331 0.237232392065 0.113220425976 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['access', 'cup', 'damn', 'good', 'world'] 0.900633208055 0.00398627947383 0.138775783916 [1, 0, 0] [0, 0, 1] False
+
+
+False
+
+
+['american', 'inevit', 'led', 'peopl', 'place', 'plan', 'put', 'stimulus', 'unfortun'] 0.705167225559 0.0808298404938 0.108230489345 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['colleg', 'decid', 'kid', 'stanford', 'today', 'tour', 'univers'] 0.126609157471 0.0297847665349 0.673774258628 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['awesom', 'cast', 'crazi', 'movi', 'museum', 'night', 'pretti', 'robin', 'william', 'worth'] 0.103507899934 0.0732278551894 0.964733851992 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['bay', 'breaker', 'francisco', 'san'] 0.368482081849 0.671498407753 0.0374037205616 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['amp', 'att', 'ball', 'crap', 'drop', 'fail', 'iphon', 'suck', 'support'] 0.990506003662 0.00389112928445 0.297400659147 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['crap', 'oper', 'phone', 'servic', 'site', 'superslow', 'time', 'unhelp', 'upsid', 'warner'] 0.996117213838 0.000822871108106 0.163287534942 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['aunti', 'janell', 'lhu', 'marvin', 'safeway'] 0.0488319756712 0.76147839564 0.00942741460945 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['gym', 'realiz', 'safeway'] 0.470114031198 0.787326816888 0.0680324812707 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['bay', 'breaker', 'degre', 'didnt', 'francisco', 'freak', 'glad', 'san', 'today', 'wtf'] 0.513873111626 0.577215160237 0.00905826735363 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['api', 'curs', 'limit', 'twitter'] 0.404385533261 0.868206232765 0.0075638151241 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['infect', 'insect', 'plant', 'spinach'] 0.176826018734 0.0836769294527 0.766588155373 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['cool', 'lyx'] 0.310245242624 0.0883408183365 0.374534628536 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['feder', 'idiot', 'roger', 'sport', 'tenni', 'writer'] 0.0170752866079 0.212999025541 0.0865417943104 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['allen', 'booz', 'hamilton', 'home', 'meet'] 0.383223102737 0.0670768301834 0.773492709366 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['ask', 'empti', 'jack', 'lift', 'luke', 'pocket', 'safeway', 'shirt', 'stop', 'walk'] 0.0209769800638 0.737438523629 0.0454152089317 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['aerospac', 'area', 'binhai', 'china', 'develop', 'giant', 'invest', 'tianjin', 'yuan'] 0.290015664633 0.812775420666 0.119289953328 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['ahh', 'amp', 'cook', 'good', 'monday', 'nap', 'pretti', 'rid', 'roomi', 'stupid', 'time', 'today', 'warner'] 0.882167610255 0.00140295012484 0.111435839435 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['appoint', 'dentist', 'possibl', 'wednesday', 'year'] 0.365831072912 0.33609122853 0.0177985689607 [1, 0, 0] [0, 1, 0] False
+
+
+False
+
+
+['air', 'colorway', 'khaki', 'nike', 'pink', 'releas', 'yeezi'] 0.0270155949203 0.845234563268 0.743593178989 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['broccoli', 'depress', 'drop', 'home', 'safeway', 'walk'] 0.0309444880796 0.840980746316 0.0462139939532 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['breaker', 'francisco', 'san'] 0.191962013234 0.747179923481 0.070381072463 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['buy', 'girl', 'hope', 'kindl', 'work'] 0.0058832299399 0.0263184723032 0.991301765613 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['amphitheatr', 'awesom', 'friday', 'nin', 'shorelin', 'show', 'wait'] 0.0251062084313 0.00402896406563 0.965355288 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['blog', 'harvard', 'post', 'stanford', 'win'] 0.0748290831014 0.572829640999 0.101585923084 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['apart', 'ass', 'guy', 'suck', 'time', 'vers', 'warner'] 0.999710358783 0.00367688572921 0.000713421595307 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['dentist', 'pet'] 0.403358338811 0.218706791989 0.277690646654 [1, 0, 0] [0, 1, 0] False
+
+
+False
+
+
+['africa', 'bought', 'cup', 'fifa', 'great', 'south', 'summer', 'ticket', 'world'] 0.89015181662 0.0200709801437 0.00811628733181 [1, 0, 0] [0, 0, 1] False
+
+
+False
+
+
+['think'] 0.275793553699 0.264199385446 0.248995318644 [1, 0, 0] [0, 1, 0] False
+
+
+False
+
+
+['eat', 'hungri'] 0.0882194859227 0.864251508411 0.0387061668615 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['case', 'cookbook', 'cuz', 'evr', 'gift', 'kendra', 'kindl', 'love', 'name', 'tell', 'tool', 'trick', 'wonder'] 0.000204126551094 0.0167075815588 0.995518326746 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['amp', 'join', 'phil', 'read', 'support', 'tether'] 0.800325558203 0.284082416928 0.142557111714 [1, 0, 0] [0, 1, 0] False
+
+
+False
+
+
+['amp', 'fun', 'fuzzbal'] 0.294974155572 0.0498971646072 0.265526157792 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['bad', 'class', 'excit', 'extra', 'invit', 'play', 'sandbox', 'wave'] 0.0251572159911 0.0752695714259 0.839135153244 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['commer', 'espn', 'hilari', 'jus', 'lebron', 'lmao', 'nike', 'puppet', 'watchin'] 0.0540677026838 0.0217898725038 0.996437159778 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['charad', 'civil', 'conservat', 'desir', 'destroy', 'firm', 'obama', 'pelosi', 'slogan'] 0.755463403765 0.00545717347443 0.0158388053411 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['ahhh', 'edit', 'environ', 'latex', 'real', 'text'] 0.865410456163 0.172314806085 0.1252039953 [1, 0, 0] [0, 0, 1] False
+
+
+False
+
+
+['account', 'develop', 'googl', 'request', 'sandbox', 'wave'] 0.150502516986 0.144283150254 0.448943449002 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['blog', 'nike', 'post', 'trainer'] 0.0832935995255 0.852275677705 0.0223049117678 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['itchi', 'miser'] 0.684557189413 0.0385909793351 0.0434484290004 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['aig', 'ass', 'economi', 'fuck', 'hate', 'loan'] 0.997803232316 0.0470890341407 0.000813945489667 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['dead', 'elkhorn', 'move', 'safeway'] 0.138715550794 0.964634025332 0.00995864062673 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['aig', 'amp', 'citi', 'deep', 'gonna', 'start', 'surviv', 'turmoil'] 0.808889523424 0.378012052941 0.00664303727554 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['blah', 'guess', 'plan', 'sleep', 'today'] 0.792274292978 0.0396441911006 0.0832542560858 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['aw', 'jet', 'lot', 'privat', 'sayin'] 0.298481181796 0.170328554165 0.525876412173 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['comcast', 'fail'] 0.640284020325 0.0336417300743 0.297753090739 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['nic', 'scrapbook'] 0.211557898732 0.203645091456 0.267598144771 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['commerci', 'freaki', 'inspir', 'nike', 'total'] 0.175134352073 0.546238942319 0.0466843609714 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['bought', 'carton', 'green', 'hate', 'icecream', 'money', 'safeway', 'select', 'tea', 'wast'] 0.529538186569 0.026878163523 0.000116691727526 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['exam', 'higher', 'lookin', 'physic', 'tommorow'] 0.265506061676 0.0833230294694 0.793632472594 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['cabl', 'suck', 'time', 'warner'] 0.991368841936 0.0145722255818 0.0023307032166 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['commerci', 'drive', 'espn', 'nut', 'omg'] 0.0732541003176 0.746798452315 0.0629388225614 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['chevi', 'photo', 'send'] 0.033828563374 0.402929297209 0.502176981042 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['ahh', 'hubbi', 'ima', 'lol', 'mcdonald', 'sum'] 0.124376357659 0.279994186936 0.75275928688 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['addict', 'nike'] 0.0707087035891 0.260704568941 0.40218733393 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['bike', 'ride', 'sleep'] 0.655304969027 0.230143209405 0.109370869885 [1, 0, 0] [0, 0, 1] False
+
+
+False
+
+
+['amp', 'bio', 'book', 'buffet', 'great', 'michael', 'nelson', 'palin', 'python', 'read', 'recommend', 'warren', 'year'] 0.0244632184681 0.0186542696775 0.0799137134548 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['kati', 'museum', 'night', 'pick'] 0.300133349661 0.70984630482 0.10383235502 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['fabul', 'happi', 'kathleen', 'kindl', 'surpris', 'winner'] 0.0239114994257 0.0621838157164 0.98772763448 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['coupon', 'market', 'mobil', 'safeway', 'super'] 0.0107110158957 0.994483490998 0.132988791398 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['devil', 'die', 'latex', 'love'] 0.502991772406 0.0061425923514 0.627528769171 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['date', 'good', 'museum', 'night', 'soooooo'] 0.423408608468 0.0475947797688 0.234917105147 [1, 0, 0] [0, 0, 1] False
+
+
+False
+
+
+['eat', 'home', 'yema'] 0.0368733018743 0.667172770376 0.00961414545463 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['battl', 'ben', 'kid', 'movi', 'museum', 'night', 'stiller', 'swithsonian', 'today', 'typic'] 0.0279755742415 0.726579768838 0.798462906692 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['museum', 'night', 'sold', 'year'] 0.198333000325 0.392653040006 0.176879905902 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['awak', 'bell', 'eat', 'loung', 'ncis', 'stay', 'taco', 'tonight', 'watch', 'work'] 0.0522633177137 0.0816725781018 0.388214344999 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['athlet', 'basketbal', 'debat', 'generat', 'inter', 'lebron', 'relat', 'sport', 'time'] 0.16157293843 0.0796214927418 0.883884796813 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['code', 'coupon', 'expir', 'soni'] 0.1556883583 0.701633419139 0.482587014364 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['eat', 'food', 'fridg', 'groceri', 'hotel', 'money', 'night', 'opt', 'room', 'save', 'stock', 'store', 'town', 'trip'] 0.00411967846372 0.838270801523 0.0188249564489 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['audiobook', 'high', 'malcolm', 'point', 'recommend', 'tip'] 0.0251855236884 0.0683023409295 0.912071770899 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['anymor', 'ceas', 'china', 'douchebaggeri', 'korea', 'north'] 0.924926367157 0.392856622508 0.00144087171763 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['adob', 'amp', 'goodbi', 'interest', 'partner', 'propr', 'sen', 'silverstein', 'youtub'] 0.263532075944 0.921924897371 0.180870686273 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['googl', 'happi', 'love', 'place', 'yay'] 0.0179028822572 0.00482144644129 0.99605266965 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['check', 'correspond', 'dinner', 'hous', 'obama', 'presid', 'video', 'white'] 0.00881303240056 0.728797235674 0.632387644864 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['api', 'twitter'] 0.269202710218 0.831294150787 0.0273877906015 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['allen', 'award', 'booz', 'custom', 'hamilton', 'innov', 'mluc', 'winner'] 0.0637065056218 0.0972237632811 0.445518020617 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['administr', 'aig', 'bonus', 'obama', 'ponzi', 'schemer', 'stop'] 0.50064340697 0.220119915271 0.0357718824914 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['dot', 'safeway', 'word'] 0.251177529294 0.82405503172 0.0374391153446 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['android', 'break', 'fast', 'fucker', 'googl', 'iphon', 'phone', 'play', 'prefer', 'scare', 'screen', 'slide'] 0.176952409535 0.347696010366 0.0610818411652 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['bit', 'boo', 'connect', 'join', 'late', 'time', 'warner', 'wftb'] 0.985576223895 0.0240886266268 0.000830665675494 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['dad', 'star', 'trek'] 0.137859632099 0.529267494655 0.48816798739 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['awesom', 'beauti', 'canon', 'photographi', 'pick', 'prepar'] 0.0625842940609 0.426402086877 0.905433325027 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['food', 'junk', 'monday', 'museum', 'night', 'perfect', 'wolverin'] 0.0908793978211 0.549015958092 0.35833324166 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+('true', 64)
+('false', 36)
+30
+389.247728681
+190.109016047
+134.276453267
+101.295287637
+81.1295207921
+68.1349511538
+58.1709833259
+50.5771673524
+44.682634059
+39.438149025
+34.593387106
+30.4425810797
+27.3693995685
+25.0041745849
+22.9163398
+20.938349182
+19.1583698947
+17.3980827213
+15.8853035337
+14.9255994068
+14.1316123714
+13.4421577015
+12.8321109892
+12.2844096967
+11.7837849063
+11.3148514081
+10.8609688289
+10.4069838347
+9.95449866405
+['aig', 'big', 'home'] 0.914617654047 0.0551948572914 0.0409259374603 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['enjoy', 'find', 'goodbi', 'nice', 'site'] 0.100395127329 0.0142347772819 0.911403518067 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['china', 'dime', 'freakin', 'hell', 'pelosi'] 0.930775045802 0.325339862015 0.041398830704 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['come', 'incred', 'iran', 'read', 'sad', 'terrifi', 'tweet'] 0.978222861402 0.0544679648426 0.0164979791417 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['museum', 'night', 'ryan', 'staci', 'watch'] 0.264373346343 0.485717909463 0.566736196833 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['demo', 'excit', 'googleio', 'great', 'html', 'lot', 'stuff'] 0.0457572592807 0.11337458715 0.989171319766 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['comcast', 'suck'] 0.89399920078 0.0781856944365 0.0454205115247 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['buffet', 'expect', 'high', 'lol', 'style', 'warren'] 0.0652012875355 0.300886407183 0.131971955946 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['fight', 'latex'] 0.121922909707 0.241676148698 0.154033737054 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['big', 'huge', 'kindl', 'look', 'love', 'month', 'remors'] 0.00306380154755 0.00422048212318 0.99676100944 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['bush', 'cheney', 'culprit', 'real'] 0.894277594401 0.0955136486403 0.0330963686717 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['esquir', 'star', 'trek'] 0.202536851342 0.438578282128 0.489950452301 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['asses', 'fuck', 'kindl', 'rock'] 0.273909719066 0.0107916041329 0.938538759602 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['app', 'appl', 'case', 'dislik', 'iphon', 'kinda', 'man', 'point', 'record', 'video'] 0.379677271004 0.350740204846 0.143696834336 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['friggin', 'korea', 'listen', 'north', 'obama'] 0.656584058277 0.00577485644889 0.161526823161 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['allen', 'ass', 'bad', 'booz', 'collabor', 'cool', 'hamilton', 'homegrown', 'platform', 'social', 'ttiv'] 0.627172174394 0.212153235251 0.210000729221 [1, 0, 0] [0, 0, 1] False
+
+
+False
+
+
+['app', 'beta', 'club', 'interest', 'iphon', 'nike', 'train'] 0.195954416432 0.395151403955 0.838148231448 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['arab', 'barack', 'countri', 'lead', 'obama', 'popular', 'presid', 'survey'] 0.138077092778 0.0570471062178 0.907791452004 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['amaz', 'blink', 'book', 'gladwel', 'malcolm', 'point', 'tip'] 0.0389175466509 0.019144572015 0.376036939906 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['laker', 'let', 'til', 'work'] 0.390746475891 0.0342977704057 0.229715786167 [1, 0, 0] [0, 0, 1] False
+
+
+False
+
+
+['app', 'download', 'fun', 'iphon', 'liter'] 0.411018721439 0.456880898713 0.180674270922 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['barack', 'funni', 'guy', 'obama', 'show', 'side'] 0.0611467114571 0.153528963797 0.697407785338 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['addict', 'googl', 'hahaha', 'point'] 0.305080933737 0.0268574568783 0.508501849308 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['safeway'] 0.252248960773 0.558572532823 0.123592055231 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['beast', 'close', 'lebron', 'nba'] 0.365078266817 0.07474654542 0.354918735658 [1, 0, 0] [0, 0, 1] False
+
+
+False
+
+
+['apatow', 'creat', 'fake', 'judd', 'market', 'movi', 'nbc', 'sitcom', 'viral'] 0.0790242886868 0.0309711807104 0.146288208188 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['answer', 'butt', 'yahoo'] 0.127137727005 0.0843095269685 0.0866559415962 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['ad', 'adida', 'billup', 'brand', 'carmelo', 'howard', 'kobe', 'lebron', 'market', 'nba', 'nike', 'own', 'playoff'] 0.00802687539909 0.159468305062 0.75078163298 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['awesom', 'museum', 'night', 'part', 'weekend'] 0.0754120736389 0.0197617584772 0.792565507451 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['bank', 'card', 'platinum', 'visa'] 0.0350580378559 0.853451708607 0.088766986751 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['calculus', 'comput', 'exam', 'feel', 'field', 'graduat', 'idiot', 'lambda', 'scienc', 'today'] 0.870845003692 0.0111860428887 0.0268040076836 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['busi', 'china', 'head', 'hong', 'kong', 'lawson', 'newedg'] 0.0646230046002 0.959192485532 0.0802409234016 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['black', 'blog', 'iii', 'lebron', 'nike', 'post', 'soldier', 'teal', 'white', 'zoom'] 0.110965699423 0.69303270643 0.410531457741 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['appear', 'basebal', 'column', 'latest', 'ncaa', 'region', 'sdsu', 'tom'] 0.0201133707959 0.0989050822891 0.152322443769 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['death', 'googl', 'investig', 'mentor', 'motwani', 'pend', 'prof', 'rajeev', 'stanford', 'tip'] 0.00362667286794 0.10605619422 0.407997779192 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['contact', 'crazi', 'goodbi', 'love', 'mail', 'send', 'silverstein', 'speak', 'today'] 0.0406476267681 0.000579154514833 0.999847649388 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['breakfast', 'eat', 'school'] 0.0160598668465 0.823204859947 0.0196331550425 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['bankruptci', 'file', 'good', 'sign'] 0.168514665493 0.0809514789611 0.452481065444 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['lebron'] 0.119619621959 0.0456216898572 0.857170695304 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['calculus', 'lambda', 'learn'] 0.44689234764 0.129988695406 0.368352233114 [1, 0, 0] [0, 0, 1] False
+
+
+False
+
+
+['concord', 'fuck', 'hill', 'martinez', 'pleasant', 'rantsandrav', 'uaw', 'worst'] 0.930639740665 0.007166019058 0.709878782067 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['child', 'good', 'kindl', 'lee', 'love', 'read'] 0.00813709685405 0.00265175632651 0.999367495033 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['accid', 'car', 'even', 'guess', 'heard', 'jame', 'lebron', 'news', 'wow'] 0.88227622965 0.0653068637572 0.487571433872 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['adob', 'commerci', 'goodbi', 'silverstein'] 0.0200696264008 0.00879351205567 0.932395145901 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['beij', 'call', 'china', 'climat', 'european', 'focus', 'govern', 'nation', 'turn', 'unit'] 0.22187421023 0.949680004949 0.00163130585925 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['damn', 'fuck', 'internet', 'time', 'warner'] 0.992823369667 0.0458460277992 0.00292234433087 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['amp', 'devic', 'enuf', 'feel', 'font', 'good', 'kindl', 'klunki', 'nice', 'physic', 'prs', 'snappi', 'soni', 'turn'] 0.0343478614479 0.0125778704689 0.094157170745 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['ate', 'bobbi', 'complet', 'dad', 'day', 'flay', 'fun', 'grill', 'lost', 'mesa', 'met', 'night', 'today', 'voic'] 0.0652903097429 0.73051852202 0.107401201888 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['blow', 'korea', 'map', 'north'] 0.89635880425 0.0363428456182 0.0413252824664 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['api', 'class', 'code', 'find', 'friend', 'fun', 'generat', 'play', 'result', 'sound', 'twitter'] 0.0302959855024 0.692257690537 0.356650690048 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['cabl', 'call', 'day', 'slogan', 'time', 'warner'] 0.959782199219 0.377367017532 0.000703596124128 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['advic', 'great', 'market', 'sourc', 'viral'] 0.594625755256 0.0256905078838 0.460349611168 [1, 0, 0] [0, 1, 0] False
+
+
+False
+
+
+['basebal', 'citi', 'park', 'polit', 'portland', 'undo'] 0.513627857721 0.154818477055 0.0739344925487 [1, 0, 0] [0, 1, 0] False
+
+
+False
+
+
+['safeway'] 0.252248960773 0.558572532823 0.123592055231 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['annoy', 'gladwel', 'internet', 'lewi', 'malcolm', 'michael', 'peopl', 'pick', 'read', 'trend'] 0.0130754681691 0.289076081006 0.281466814141 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['commerci', 'cute', 'live', 'muppet', 'nike', 'pretti'] 0.0413643191967 0.00134499800248 0.683892995203 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['american', 'bobbi', 'festiv', 'flay', 'food', 'great', 'katz', 'mmm', 'music', 'pastrami', 'shorelin', 'tomorrow', 'wait'] 0.0199755286377 0.000443408031842 0.998067886185 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['alto', 'care', 'child', 'east', 'job', 'palo', 'sick', 'sitterc'] 0.0149590238624 0.0713872828023 0.37904112191 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['lebron', 'monsta', 'readi', 'smh', 'world'] 0.0100415780816 0.0455133434026 0.925085590421 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['line', 'safeway', 'wait'] 0.277209545219 0.287359068692 0.35223178548 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['church', 'hate', 'insect', 'total'] 0.969622012312 0.00712774433376 0.42047506418 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['bankrupt', 'day', 'sad'] 0.588897222794 0.529198017292 0.0331183000021 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['bore', 'exam', 'good', 'hate', 'revis', 'tomorrow', 'total', 'unprepar'] 0.913078180638 0.000382300011451 0.975095887872 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['bill', 'clinton', 'fail', 'obama', 'read', 'win'] 0.58768567309 0.712271462407 0.0171440871509 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['buy', 'day', 'feed', 'fish', 'give', 'good', 'life', 'man', 'teach'] 0.71358091457 0.0440694319475 0.143035931293 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['amp', 'ehfa', 'fhg', 'fml', 'instal', 'internet', 'omg', 'saturday', 'time', 'today', 'warner', 'week'] 0.987080148538 0.0394671558212 0.000849373556136 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['damn', 'korea', 'north'] 0.923299364779 0.0193793171348 0.0536814904326 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['amp', 'day', 'dislik', 'good', 'offic', 'today', 'vote'] 0.547938769948 0.00289103062004 0.843285067203 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['aha', 'amp', 'bore', 'itchi', 'omg', 'tattoooo'] 0.989429875297 0.229418784044 0.211268579361 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['bastard', 'card', 'dearest', 'guy', 'rich', 'screw', 'visa', 'work'] 0.0921804970472 0.69677225678 0.0981183693417 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['awesom', 'duo', 'lebron', 'zydruna'] 0.0487353205959 0.0059297933382 0.979488909047 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['dad', 'safeway'] 0.10484075892 0.88515248623 0.0343117345905 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['charact', 'cool', 'good', 'lebron', 'person'] 0.0318883645632 0.00508296294007 0.997008597054 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['amp', 'apolog', 'bob', 'cut', 'geldof', 'give', 'money', 'slogan', 'small', 'talk'] 0.978615547089 0.376702841488 0.00359863272385 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['buffet', 'goodi', 'great', 'investor', 'oldi', 'read', 'super', 'warren', 'weekend'] 0.0119521708569 0.569177000159 0.707552729807 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['coupon', 'mobil', 'offer', 'safeway'] 0.0715544528616 0.92244526211 0.378452117407 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['francisco', 'girl', 'hour', 'mmmmmfamili', 'san', 'wonder'] 0.487796635797 0.5293655302 0.0189245442907 [0, 1, 0] [0, 0, 1] False
+
+
+False
+
+
+['buffet', 'economi', 'warren'] 0.0363311250582 0.202974003475 0.301592103618 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['favorit', 'museum', 'night', 'restaur'] 0.164695002622 0.324948940707 0.311020749009 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['kobe', 'lebron', 'world'] 0.0226942803288 0.103476578453 0.960163234758 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['itchi', 'lol'] 0.910562215961 0.0865209908276 0.125089006991 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['cheaper', 'cox', 'dslreport', 'expens', 'time', 'warner'] 0.99309339456 0.111527860707 0.00765064125295 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['blog', 'dunk', 'gum', 'nike', 'post', 'premium', 'white'] 0.0657548215511 0.979016930243 0.017548471507 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['asshol', 'bitin', 'burn', 'catch', 'day', 'insect', 'mosquito', 'outta', 'shit', 'slowli', 'world'] 0.840433203499 0.0645071078558 0.0639570602253 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['lol', 'movi', 'museum', 'night'] 0.651824162966 0.140544396758 0.114687506472 [1, 0, 0] [0, 1, 0] False
+
+
+False
+
+
+['francisco', 'head', 'san'] 0.135184703229 0.846463587897 0.0305953448153 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['adam', 'american', 'cute', 'danni', 'fashion', 'gokey', 'idol', 'lambert', 'tone'] 0.0134031916334 0.0172745854608 0.99325014918 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['car', 'dentist', 'good', 'hate', 'onlin', 'price', 'sell', 'shop', 'son'] 0.994748047402 0.00128303985742 0.407879501594 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['comcast', 'day', 'deal', 'life', 'rank'] 0.276485909538 0.546575811497 0.355188241417 [0, 1, 0] [1, 0, 0] False
+
+
+False
+
+
+['nike', 'pair', 'pic', 'shoe'] 0.0647970202635 0.230399885267 0.743427065463 [0, 0, 1] [0, 1, 0] False
+
+
+False
+
+
+['buy', 'car', 'time'] 0.881554919919 0.122236538979 0.011607678163 [1, 0, 0] [0, 1, 0] False
+
+
+False
+
+
+['fuck', 'genius', 'gladwel', 'idiot', 'malcolm', 'peopl', 'realiz', 'trick'] 0.0697285352894 0.192511759407 0.363836567558 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['develop', 'googleio', 'guess', 'retir', 'start', 'woot'] 0.230481321981 0.22824047077 0.0773369961965 [1, 0, 0] [0, 0, 1] False
+
+
+False
+
+
+['francisco', 'san', 'suggest', 'today'] 0.0732586585229 0.856639153004 0.0232783801156 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['dentist', 'hate', 'invent'] 0.944933411242 0.0765645475179 0.0463348813249 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['awesom', 'basketbal', 'bball', 'chang', 'default', 'nike', 'pic'] 0.0230666589883 0.0175948958123 0.976232025145 [0, 0, 1] [0, 0, 1] True
+
+
+True
+
+
+['awesom', 'nike', 'own'] 0.0401115818426 0.030939415284 0.967974853504 [0, 0, 1] [1, 0, 0] False
+
+
+False
+
+
+['bottl', 'counti', 'dri', 'profit', 'resold', 'safeway', 'water', 'well'] 0.453871601037 0.712240845794 0.23386960864 [0, 1, 0] [0, 1, 0] True
+
+
+True
+
+
+['connect', 'fast', 'free', 'goug', 'internet', 'pay', 'reason', 'slow', 'tax', 'time', 'warner', 'year'] 0.990550707021 0.0139343548431 0.00874849985769 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+['dentist', 'wrong'] 0.633679769831 0.394121868927 0.0849154752959 [1, 0, 0] [1, 0, 0] True
+
+
+True
+
+
+('true', 65)
+('false', 35)
+29
