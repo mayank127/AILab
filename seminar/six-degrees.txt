@@ -1,0 +1,30 @@
+One of the more recent attempts to prove we are closely connected was in 2003. That’s when Columbia University researchers released the results of their "Small World Research Project” – an Internet version of Milgram’s experiment.
+
+Facebook, along with the University of Milan, organized a study in 2011.  They analyzed the information from 721 million active members, and researchers found that the average number of connections from one randomly selected person to another was 4.74.  And if you limit it to just the United States, it was just 4.37. 
+
+http://news.yahoo.com/just-explain-it--six-degrees-of-separation-212602206.html
+
+----------------------------------------------------------------------
+
+Small World Experiment - http://en.wikipedia.org/wiki/Small-world_experiment
+
+------------------------------------------------------------------------
+
+Six degrees of freedom in Online Society : http://journal.webscience.org/147/2/websci09_submission_49.pdf
+
+-- Study on data
+
+
+http://www.aaai.org/ocs/index.php/SOCS/SOCS11/paper/viewFile/4031/4352
+
+ This paper addresses the search problem of identifying the degree of separation between two users. New search techniques are introduced to provide optimal or near-optimal solutions. The experiments are performed using Twitter, and they show an improvement of several orders of magnitude over greedy approaches.
+
+-----------------------------------------------------------------------
+
+In Mathematics :
+Mathematicians use an analogous notion of collaboration distance
+
+------------------------------------------------------------------------
+Mathematics :
+There is a notion of : Erdős number
+
