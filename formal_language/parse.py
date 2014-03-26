@@ -4,6 +4,7 @@ import sys
 
 formula_list = []
 proof_list = []
+all_symbols = []
 
 HYPO = 0
 AXIOM = 1
@@ -67,13 +68,26 @@ class formula:
 		for element in l:
 			val = raw_input('Give assignment for ' + element + ' : ')
 			assignments[element] = val
-		s = '('
+		s = ''
 		for ch in self.id:
 			if ch in l:
 				s += assignments[ch]
 			else:
 				s += ch
-		s += ')'
+		#s += ')'
+		ax = parse(s)
+		ax.set_axiom(self.axiom)
+		return ax
+
+	def assign_axiom(self, assign):
+		l = self.get_symbols()
+		s = ''
+		for ch in self.id:
+			if ch in l:
+				s += assign[ch]
+			else:
+				s += ch
+		# s += ')'
 		ax = parse(s)
 		ax.set_axiom(self.axiom)
 		return ax
@@ -139,9 +153,9 @@ def parse(s):
 
 def gen_hypo(s):
 	global formula_list
+	global all_symbols
 	wff = parse(s)
-	# print 'Symbols are : '
-	# print wff.get_symbols()
+	all_symbols = wff.get_symbols()
 	w = wff
 	while w.left != None:
 		formula_list += [w.left]
@@ -275,14 +289,33 @@ def print_proof(i):
 		l = find_proof_number(formula_list[i])
 		proof_list[l].set_proof_number(l, find_proof_number(formula_list[p[0]]), find_proof_number(formula_list[p[1]]))
 			
+def all_symbol_axiom():
+	global all_symbols
+	print all_symbols
+	ax_f = []
+	all_symbols += ['F']
+	for s1 in all_symbols:
+		ax_f += [axiom_set[2].assign_axiom({'A': s1})]
+
+		for s2 in all_symbols:
+			if(s1 != s2):
+				ax_f += [axiom_set[0].assign_axiom({'A': s1, 'B': s2})]
+
+			for s3 in all_symbols:
+				if( not( (s1 == s2) or (s1 == s3))):
+					ax_f += [axiom_set[1].assign_axiom({'A': s1, 'B': s2, 'C': s3})]
+
+	return ax_f
 
 
 
 for line in lines:
 	false = formula("F")
 	formula_list = []
-	gen_hypo(line)
 	proof_list = []
+	all_symbols = []
+	flag_all = 0
+	gen_hypo(line)
 	for w in formula_list:
 		w.print_id()
 
@@ -301,6 +334,22 @@ for line in lines:
 				formula_list += [w]
 				l = len(formula_list)
 				formula_list[-1].set_type(l-1, AXIOM)
+
+		if(mp_count==0 and flag_all==0):
+			flag_all = 1
+			ax_s = all_symbol_axiom()
+			for ax in ax_s:
+				if not search_formula_list(ax):
+					if search_formula_list(ax.left):
+						formula_list += [ax]
+						print ax
+						mp_count += 1
+					else:
+						for w in formula_list:
+							if(w.left.id == ax.id):
+								formula_list += [ax]
+								print ax
+								mp_count += l
 
 		if mp_count == 0:
 			print "Can't proceed (Need Help)"
