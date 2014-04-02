@@ -20,6 +20,7 @@ class formula:
         self.left = left
         self.right = right
         self.number = 0
+        self.count = 0
 
         self.type = NOTYPE
         self.parent1 = None
@@ -218,6 +219,8 @@ def heuristic_3(wff):
             else:
                 print "Axiom 3:",
                 ax_f.print_id()
+                # if(len(ax_f.id)>50):
+                #     return []
                 return [ax_f]
     return []
 
@@ -352,20 +355,72 @@ for line in lines:
     for w in formula_list:
         w.print_id()
 
+    prevList=[]
+    hcount=[0,0,0]
+    hflag=[1,1,1]
+    countflag=[0,0,0]
     while not search_formula_list(false):
+        if(len(formula_list)>100):
+            print "Proof Cannot be done !! "
+
         mp_count = modus_ponens()
+
+        for i in range(3):
+            if(hcount[i]>5):
+                print "break",i
+                hflag[i]=0
 
         if mp_count == 0:
             temp_list = []
+            
             for f in formula_list:
-                temp_list += heuristic_3(f)
-                temp_list += heuristic_2(f)
-                temp_list += heuristic_1(f)
+                if(f.count>10):  # if a formula is consecutively picked up more than 10 times, then skip it.
+                    # print "Boss !! "
+                    f.count = 0
+                    prevList.remove(f.id)
+                    continue
+
+                if(hflag[2]==1):
+                    temp_list += heuristic_3(f)
+                    if(len(heuristic_3(f))!=0):
+                        countflag[2]=1
+
+                if(hflag[1]==1):
+                    temp_list += heuristic_2(f)
+                    if(len(heuristic_2(f))!=0):
+                        countflag[1]=1
+
+                if(hflag[0]==1):
+                    temp_list += heuristic_1(f)
+                    if(len(heuristic_1(f))!=0):
+                        countflag[0]=1
+
+
+                if(len(temp_list)!=0):
+                    if(f.id in prevList):
+                        f.count+=1;
+                    else:
+                        f.count=1
+                        prevList.append(f.id)
+
+
+            for i in range(3):
+                if(hflag[i]==0):
+                    hflag[i]=1
+                    hcount[i]=0
+                elif(countflag[i]==1):
+                    hcount[i]+=1
+                    countflag[i]=0
+                elif(countflag[i]==0):
+                    hcount[i]=0
+
+
             mp_count += len(temp_list)
             for w in temp_list:
                 formula_list += [w]
                 l = len(formula_list)
                 formula_list[-1].set_type(l - 1, AXIOM)
+
 
         if(mp_count == 0):
             if(flag_all == 0):
@@ -392,6 +447,7 @@ for line in lines:
 
         if mp_count == 0:
             print "Can't proceed (Need Help)"
+            print len(formula_list)
             n = int(raw_input('Enter axiom number to use : [1 to 3]'))
             formula_list += [axiom_set[n - 1].assign_values()]
             l = len(formula_list)
@@ -410,3 +466,4 @@ for line in lines:
         for w in proof_list:
             w.print_proof()
         print("------------------------------------------------------------------------\n\n")
+        print "End"
