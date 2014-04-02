@@ -24,12 +24,6 @@ start_state = [[2,8,1],[4,6,3],[0,7,5]]
 # start_state = [[2,0,3],[1,8,4],[7,6,5]]
 final_state = [[1,2,3],[8,0,4],[7,6,5]]
 
-
-
-
-
-
-
 def index_2d(myList, v):
     for i, x in enumerate(myList):
         if v in x:
@@ -47,6 +41,8 @@ class Node:
 			self.h = self.h_manhattan()
 		elif(hflag==2):
 			self.h = self.inversionPairs()
+		elif(hflag==3):
+			self.h = 0;
 		else:
 			self.h = self.h_plain()
 
@@ -84,11 +80,16 @@ class Node:
 			for j in range(i+1, len(arr)):
 				if(arr[i]<arr[j]):
 					nInversions+=1
-		return nInversions
-
-
-
-
+		arr=[]
+		for row in final_state:
+			for ele in row:
+				if(ele!=0):
+					arr.append(ele)
+		for i in range(len(arr)):
+			for j in range(i+1, len(arr)):
+				if(arr[i]<arr[j]):
+					nInversions-=1
+		return abs(nInversions/1)
 
 	def print_node(self):
 		for i in range(3):
