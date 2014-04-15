@@ -97,7 +97,6 @@ class formula:
                 s += assign[ch]
             else:
                 s += ch
-        # s += ')'
         ax = parse(s)
         ax.set_axiom(self.axiom)
         return ax

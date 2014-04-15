@@ -41,7 +41,7 @@ class Node:
 		return self.h + self.g
 
 	def h_npersonLeft(self):
-		return (self.config[0]+self.config[1])
+		return (self.config[0]+self.config[1])*1000
 
 	def h_minSteps(self):
 		return (self.config[0]+self.config[1])/2
@@ -142,9 +142,15 @@ def astar(S,F):
 		for y in neighbors:
 			x = node_map[str(y)]
 			if (not x.visited):
-				x.parent = min_node
-				x.g = 1 + min_node.g # cost of each edge is 1
-				OL += [x]
+				if not x in OL:
+					x.parent = min_node
+					x.g = 1 + min_node.g # cost of each edge is 1
+					OL += [x]
+				else:
+					w = 1 + min_node.g
+					if (w < x.g):
+						x.parent = min_node
+						x.g = 1 + min_node.g
 			else:
 				w = 1 + min_node.g
 				if (w <= x.g):
