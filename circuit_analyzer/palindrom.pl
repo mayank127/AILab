@@ -1,7 +1,7 @@
 value(a,1).
 value(b,1).
-value(c,0).
-value(d,1).
+value(c,1).
+value(d,0).
 value(e,1).
 
 ckt_elem(xor1).
@@ -12,12 +12,16 @@ ckt_elem(xor2).
 type(xor2, xorGate).
 inputs(xor2,2).
 
+ckt_elem(xor3).
+type(xor3, xorGate).
+inputs(xor3,2).
+
 ckt_elem(or1).
 type(or1, orGate).
-inputs(or1, 2).
+inputs(or1, 3).
 
-ckt_elem(nor1).
-type(nor1, notGate).
+ckt_elem(not1).
+type(not1, notGate).
 
 connected(in(1,xor1), a).
 connected(in(2,xor1), e).
@@ -25,13 +29,17 @@ connected(in(2,xor1), e).
 connected(in(1,xor2), b).
 connected(in(2,xor2), d).
 
+connected(in(1,xor3), c).
+connected(in(2,xor3), c).
+
 connected(in(1,or1), out(xor1)).
 connected(in(2,or1), out(xor2)).
+connected(in(3,or1), out(xor3)).
 
-connected(in(1, nor1), out(or1)).
+connected(in(1, not1), out(or1)).
 
 wire(y).
-connected(y, out(nor1)).
+connected(y, out(not1)).
 
 
 
