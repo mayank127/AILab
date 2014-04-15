@@ -11,6 +11,9 @@ AXIOM = 1
 MODPON = 2
 USER = 3
 NOTYPE = -1
+HELP = 0
+PROVED = 1
+NEED = 0
 
 
 class formula:
@@ -217,15 +220,14 @@ def heuristic_3(wff):
             if search_formula_list(ax_f):
                 return []
             else:
-                print "Axiom 3:",
-                ax_f.print_id()
-                # if(len(ax_f.id)>50):
-                #     return []
                 return [ax_f]
     return []
 
 
 def heuristic_2(wff):
+    global formula_list
+    if ((wff.parent1 and formula_list[wff.parent1].type == AXIOM and formula_list[wff.parent1].axiom == 2) or (wff.parent2 and formula_list[wff.parent2].type == AXIOM and formula_list[wff.parent2].axiom == 2)):
+        return []
     if(wff.type != AXIOM and wff.left != None and wff.right.left != None):
         A = wff.left.get()
         B = wff.right.left.get()
@@ -236,8 +238,6 @@ def heuristic_2(wff):
         if search_formula_list(ax_f):
             return []
         else:
-            print "Axiom 2:",
-            ax_f.print_id()
             return [ax_f]
     return []
 
@@ -251,8 +251,6 @@ def heuristic_1(wff):
             if search_formula_list(ax_f):
                 return []
             else:
-                print "Axiom 1:",
-                ax_f.print_id()
                 return [ax_f]
     return []
 
@@ -354,28 +352,27 @@ for line in lines:
     hypothesis = formula_list
     for w in formula_list:
         w.print_id()
-
+    PROVED = 1
     prevList=[]
     hcount=[0,0,0]
     hflag=[1,1,1]
     countflag=[0,0,0]
     while not search_formula_list(false):
-        if(len(formula_list)>100):
-            print "Proof Cannot be done !! "
+        NEED = 0
+        if(len(formula_list)%1000 == 0):
+            NEED = 1
 
         mp_count = modus_ponens()
 
         for i in range(3):
             if(hcount[i]>5):
-                print "break",i
                 hflag[i]=0
 
         if mp_count == 0:
             temp_list = []
-            
+
             for f in formula_list:
                 if(f.count>10):  # if a formula is consecutively picked up more than 10 times, then skip it.
-                    # print "Boss !! "
                     f.count = 0
                     prevList.remove(f.id)
                     continue
@@ -417,9 +414,12 @@ for line in lines:
 
             mp_count += len(temp_list)
             for w in temp_list:
-                formula_list += [w]
-                l = len(formula_list)
-                formula_list[-1].set_type(l - 1, AXIOM)
+                if (len(w.id) < 400):
+                    formula_list += [w]
+                    l = len(formula_list)
+                    formula_list[-1].set_type(l - 1, AXIOM)
+                    print("AXIOM " + str(w.axiom) + ": "),
+                    w.print_id()
 
 
         if(mp_count == 0):
@@ -429,31 +429,41 @@ for line in lines:
             for ax in ax_s:
                 if not search_formula_list(ax):
                     if search_formula_list(ax.left):
-                        formula_list += [ax]
-                        l = len(formula_list)
-                        formula_list[-1].set_type(l - 1, AXIOM)
-                        print("AXIOM " + str(ax.axiom) + ": "),
-                        ax.print_id()
-                        mp_count += 1
+                        if (len(ax.id) < 400):
+                            formula_list += [ax]
+                            l = len(formula_list)
+                            formula_list[-1].set_type(l - 1, AXIOM)
+                            print("AXIOM " + str(ax.axiom) + ": "),
+                            ax.print_id()
+                            mp_count += 1
                     else:
                         for w in formula_list:
                             if(w.left.id == ax.id):
-                                formula_list += [ax]
-                                l = len(formula_list)
-                                formula_list[-1].set_type(l - 1, AXIOM)
-                                print("AXIOM " + str(ax.axiom) + ": "),
-                                ax.print_id()
-                                mp_count += l
+                                if (len(ax.id) < 400):
+                                    formula_list += [ax]
+                                    l = len(formula_list)
+                                    formula_list[-1].set_type(l - 1, AXIOM)
+                                    print("AXIOM " + str(ax.axiom) + ": "),
+                                    ax.print_id()
+                                    mp_count += l
+                                    break
 
-        if mp_count == 0:
-            print "Can't proceed (Need Help)"
-            print len(formula_list)
+        if (mp_count == 0 or NEED == 1):
+            HELP += 1
+            if (HELP == 5):
+                PROVED = 0
+                print "Proof Cannot be done !!"
+                break
+            else:
+                print "Can't proceed (Need Help)"
+
+            # print len(formula_list)
             n = int(raw_input('Enter axiom number to use : [1 to 3]'))
             formula_list += [axiom_set[n - 1].assign_values()]
             l = len(formula_list)
             formula_list[-1].set_type(l - 1, USER)
 
-    if mp_count != 0:
+    if (PROVED == 1):
         print("HENCE PROVED")
 
     if(search_formula_list(false)):
@@ -465,5 +475,5 @@ for line in lines:
         print("--------------------------------------------------------------------------")
         for w in proof_list:
             w.print_proof()
-        print("------------------------------------------------------------------------\n\n")
-        print "End"
+        print("------------------------------------------------------------------------\n")
+        print "End\n\n"
