@@ -10,30 +10,32 @@ pathLength = 0
 
 hflag = 0
 
-# start_state =[[2,1,3],[4,5,6],[7,0,8]]
-# start_state = [[8,3,5],[4,1,6],[2,7,0]]
-# start_state = [[1,3,4],[8,6,2],[7,0,5]]
-# start_state = [[2,8,1],[0,4,3],[7,6,5]]
-# start_state = [[2,8,1],[4,6,3],[0,7,5]]
-# start_state = [[5,6,7],[4,0,8],[3,2,1]] # -- worst input
-# start_state = [[1,2,3],[4,5,6],[7,0,8]]
-# final_state = [[1,2,3],[4,5,6],[7,8,0]]
-
-# start_state = [[2,1,4],[7,8,3],[5,6,0]]
-# final_state = [[1,7,4],[0,3,6],[2,5,8]]
-# start_state = [[2,0,3],[1,8,4],[7,6,5]]
+# s1=[[8,3,5],[4,1,6],[2,7,0]]
+# s2=[[3,1,4],[6,2,8],[0,5,7]]
+# s3=[[2,8,1],[4,6,3],[0,7,5]]
+# s4=[[1,2,3],[6,5,4],[0,7,8]]
+# s5=[[1,3,2],[4,0,8],[7,6,5]]
+# s6=[[5,6,7],[4,0,8],[3,2,1]] # -- worst input
 # final_state = [[1,2,3],[8,0,4],[7,6,5]]
 
-s1=[[8,3,5],[4,1,6],[2,7,0]]
-s2=[[3,1,4],[6,2,8],[0,5,7]]
-s3=[[2,8,1],[4,6,3],[0,7,5]]
-s4=[[1,2,3],[6,5,4],[0,7,8]]
-s5=[[1,3,2],[4,0,8],[7,6,5]]
+# start_state = [[2,1,3],[4,5,6],[7,0,8]]
+# start_state = [[8,3,5],[4,1,6],[2,7,0]]
+# start_state = [[1,3,4],[8,6,2],[7,0,5]] # 9
+# start_state = [[2,8,1],[0,4,3],[7,6,5]] # -- non-optimal start state 1
+# start_state = [[2,8,1],[4,6,3],[0,7,5]]
+# start_state = [[5,6,7],[4,0,8],[3,2,1]] # -- worst input
+start_state = [[1,3,6],[4,0,2],[7,5,8]]
+final_state = [[1,2,3],[4,5,6],[7,8,0]]
 
-s6 = [[5,6,7],[4,0,8],[3,2,1]] # -- worst input
-final_state = [[1,2,3],[8,0,4],[7,6,5]]
-startList=[s2]
+# start_state = [[2,1,4],[7,8,3],[5,6,0]]
+# final_state = [[1,7,4],[0,3,6],[2,5,8]] # 10
+# start_state = [[2,0,3],[1,8,4],[7,6,5]]
+# final_state = [[1,2,3],[8,0,4],[7,6,5]] # -- non-optimal final state 1
 
+# start_state = [[0,1,2],[3,4,5],[6,7,8]]
+# final_state = [[4,1,2],[0,6,3],[7,5,8]]
+
+startList=[start_state]
 
 def index_2d(myList, v):
     for i, x in enumerate(myList):
@@ -47,13 +49,17 @@ class Node:
 		self.g = 0
 		self.config = config
 		self.h = 0
-		global hflag 
+		global hflag
 		if(hflag==1):
 			self.h = self.h_manhattan()
 		elif(hflag==2):
 			self.h = self.inversionPairs()/2
 		elif(hflag==3):
-			self.h = 0; #Trivial 
+			self.h = 0; #Trivial
+		elif(hflag==4):
+			self.h = self.h_manhattan_new()
+		elif(hflag==5):
+			self.h = self.h_plain_new()
 		else:
 			self.h = self.h_plain() #displaced tiles
 
@@ -63,11 +69,20 @@ class Node:
 		for i in range(3):
 			for j in range(3):
 				if (self.config[i][j]!=x[i][j] and self.config[i][j]!=0):
-					count += 1 
+					count += 1
 		return count
 
+	def h_plain_new(self):
+		x = copy.deepcopy(start_state)
+		count = 0
+		for i in range(3):
+			for j in range(3):
+				if (self.config[i][j]!=x[i][j] and self.config[i][j]!=0):
+					count += 1
+		return count*10 +20
+
 	def h_manhattan(self):
-		count= 0;
+		count= 0
 		for i in range(3):
 			for j in range(3):
 				ele = self.config[i][j]
@@ -75,6 +90,16 @@ class Node:
 					pos = index_2d(final_state,ele);
 					count+= abs(i-pos[0]) + abs(j-pos[1])
 		return count
+
+	def h_manhattan_new(self):
+		count= 0
+		for i in range(3):
+			for j in range(3):
+				ele = self.config[i][j]
+				if(ele!=0):
+					pos = index_2d(start_state,ele);
+					count+= abs(i-pos[0]) + abs(j-pos[1])
+		return count*10 + 10
 
 	def f(self):
 		return self.h + self.g
@@ -89,7 +114,7 @@ class Node:
 		nInversions=0;
 		for i in range(len(arr)):
 			for j in range(i+1, len(arr)):
-				if(arr[i]<arr[j]):
+				if(arr[i]>arr[j]):
 					nInversions+=1
 		arr=[]
 		for row in final_state:
@@ -98,7 +123,7 @@ class Node:
 					arr.append(ele)
 		for i in range(len(arr)):
 			for j in range(i+1, len(arr)):
-				if(arr[i]<arr[j]):
+				if(arr[i]>arr[j]):
 					nInversions-=1
 		return abs(nInversions)
 
@@ -124,7 +149,7 @@ def getChildren(node):
 	if (posx <= 1):
 		x = copy.deepcopy(config)
 		x[posx][posy], x[posx+1][posy] = x[posx+1][posy], x[posx][posy]
-		children += [x] 
+		children += [x]
 	if (posx >= 1):
 		x = copy.deepcopy(config)
 		x[posx][posy], x[posx-1][posy] = x[posx-1][posy], x[posx][posy]
@@ -132,7 +157,7 @@ def getChildren(node):
 	if (posy <= 1):
 		x = copy.deepcopy(config)
 		x[posx][posy], x[posx][posy+1] = x[posx][posy+1], x[posx][posy]
-		children += [x] 
+		children += [x]
 	if (posy >= 1):
 		x = copy.deepcopy(config)
 		x[posx][posy], x[posx][posy-1] = x[posx][posy-1], x[posx][posy]
@@ -147,8 +172,6 @@ def getChildren(node):
 def astar(S,F):
 	node_map[str(S.config)] = S
 	node_map[str(F.config)] = F
-
-
 
 	OL = [S]
 	CL = []
@@ -170,16 +193,22 @@ def astar(S,F):
 			return
 		global steps
 		steps += 1
-		# if(steps%100==0):c
-			# print(steps)
+		if(steps%100==0):
+			print(steps)
 		min_node.visited = True
 		neighbors = getChildren(min_node)
 		for y in neighbors:
 			x = node_map[str(y)]
 			if (not x.visited):
-				x.parent = min_node
-				x.g = 1 + min_node.g # cost of each edge is 1
-				OL += [x]
+				if not x in OL:
+					x.parent = min_node
+					x.g = 1 + min_node.g # cost of each edge is 1
+					OL += [x]
+				else:
+					w = 1 + min_node.g
+					if (w < x.g):
+						x.parent = min_node
+						x.g = 1 + min_node.g
 			else:
 				w = 1 + min_node.g
 				if (w < x.g):
@@ -203,7 +232,7 @@ def astar(S,F):
 		CL += [min_node]
 
 def main():
-	global hflag 	
+	global hflag
 	for snode in startList:
 		hflag = int(sys.argv[1])
 		start = Node(snode)
@@ -215,8 +244,8 @@ def main():
 		# print ("PATH")
 
 		#Non Reachability Test
-		print start.inversionPairs()-final.inversionPairs()
-		if((start.inversionPairs()-final.inversionPairs())%2!=0):
+		# print start.inversionPairs()-final.inversionPairs()
+		if(start.inversionPairs()%2!=0):
 			print("Puzzle cannot be solved")
 			exit(0)
 
