@@ -43,7 +43,7 @@ for filename in filenames:
 	for line in lines:
 		all_words += extract_words(line)
 
-all_words = [k for k,v in Counter(all_words).items() if v > 3]
+all_words = [k for k,v in Counter(all_words).items() if v >= 2]
 all_words = list(set(all_words))
 all_words.sort()
 print all_words
@@ -194,7 +194,8 @@ for l in range(n_layers):
 # training_data[8] = [1,1,1,1,1,1,1]
 # training_data[9] = [1,1,1,1,1,1,0]
 
-for dataI in range(5):
+for a in range(1):
+	dataI = 0
 	network = []
 	training_data = []
 	target_output = []
@@ -271,7 +272,7 @@ for dataI in range(5):
 	factor = 0;
 
 	cur_error = get_error()
-	threshhold = 0.1 * len(training_data)
+	threshhold = 600
 	count = 0
 	iterations=0;
 	while True:
@@ -317,6 +318,9 @@ for dataI in range(5):
 	print("false", falsecount)
 	print(iterations)
 
+	for layer in network:
+		for neuron in layer:
+			print neuron.in_weights
 	# while (True):
 	# 	Input = []
 	# 	for i in range(neurons_per_layer[0]):
