@@ -194,8 +194,9 @@ for l in range(n_layers):
 # training_data[8] = [1,1,1,1,1,1,1]
 # training_data[9] = [1,1,1,1,1,1,0]
 
+import sys
 for a in range(1):
-	dataI = 0
+	dataI = int(sys.argv[1])
 	network = []
 	training_data = []
 	target_output = []
